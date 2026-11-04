@@ -1,0 +1,364 @@
+{
+  "trace_vs_original_output": {
+    "nrmse": 0.024853848947382705,
+    "bias": 0.0033267596743418184,
+    "max_abs": 13.639116287231445,
+    "exact_fraction": 0.8496397360777244
+  },
+  "trace_vs_original_state": {
+    "nrmse": 0.029800038776652885,
+    "bias": 0.0005053060987183227,
+    "max_abs": 0.7087171077728271,
+    "exact_fraction": 0.8645930363581731
+  },
+  "trace_vs_qdq_state": {
+    "nrmse": 0.150883871615286,
+    "bias": 0.018263698687528283,
+    "max_abs": 1.4420591592788696,
+    "exact_fraction": 0.372900390625
+  },
+  "nodes": [
+    {
+      "label": "h_in",
+      "name": "/delta/QuantizeLinear_output_0",
+      "source": "/delta/QuantizeLinear_output_0",
+      "shape": [
+        1,
+        256,
+        1,
+        1
+      ],
+      "scale": 0.2178686112165451,
+      "zp": 121,
+      "nrmse": 0.03952752900478277,
+      "bias": -0.0013485857292275447,
+      "max_abs": 0.8714752197265625,
+      "exact_fraction": 0.6864182692307692,
+      "mean_lsb": -0.006189903730038244,
+      "max_lsb": 4.000003556548958
+    },
+    {
+      "label": "qkv",
+      "name": "/delta/QuantizeLinear_2_output_0",
+      "source": "/delta/QuantizeLinear_2_output_0",
+      "shape": [
+        1,
+        384,
+        1,
+        1
+      ],
+      "scale": 0.16518276929855347,
+      "zp": 137,
+      "nrmse": 0.052251530398195,
+      "bias": 0.0002812607375045235,
+      "max_abs": 0.660731315612793,
+      "exact_fraction": 0.7192508012820513,
+      "mean_lsb": 0.0017027244348723155,
+      "max_lsb": 4.000001443362284
+    },
+    {
+      "label": "query",
+      "name": "/delta/QuantizeLinear_3_output_0",
+      "source": "/delta/QuantizeLinear_3_output_0",
+      "shape": [
+        1,
+        32,
+        1,
+        1
+      ],
+      "scale": 0.0013864838983863592,
+      "zp": 128,
+      "nrmse": 0.7933555244426607,
+      "bias": -0.08662291547605912,
+      "max_abs": 0.17608346045017242,
+      "exact_fraction": 0.17463942307692307,
+      "mean_lsb": -62.476683340408094,
+      "max_lsb": 127.0000038623635
+    },
+    {
+      "label": "key",
+      "name": "/delta/QuantizeLinear_4_output_0",
+      "source": "/delta/QuantizeLinear_4_output_0",
+      "shape": [
+        1,
+        32,
+        1,
+        1
+      ],
+      "scale": 0.0013864838983863592,
+      "zp": 128,
+      "nrmse": 0.7322101993304329,
+      "bias": -0.048764404850617914,
+      "max_abs": 0.17608346045017242,
+      "exact_fraction": 0.3861778846153846,
+      "mean_lsb": -35.17127382970096,
+      "max_lsb": 127.0000038623635
+    },
+    {
+      "label": "value",
+      "name": "/delta/QuantizeLinear_5_output_0",
+      "source": "/delta/QuantizeLinear_5_output_0",
+      "shape": [
+        1,
+        1,
+        1,
+        32
+      ],
+      "scale": 0.0313725508749485,
+      "zp": 127,
+      "nrmse": 0.6098305093122303,
+      "bias": -0.7789253820754731,
+      "max_abs": 3.98431396484375,
+      "exact_fraction": 0.37872596153846155,
+      "mean_lsb": -24.82824508533853,
+      "max_lsb": 127.00000011874363
+    },
+    {
+      "label": "alpha_linear",
+      "name": "/delta/QuantizeLinear_7_output_0",
+      "source": "/delta/QuantizeLinear_7_output_0",
+      "shape": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": 0.06800103932619095,
+      "zp": 0,
+      "nrmse": 0.013352575836322505,
+      "bias": -0.009153977724222037,
+      "max_abs": 0.2720046043395996,
+      "exact_fraction": 0.3730769230769231,
+      "mean_lsb": -0.13461526198609639,
+      "max_lsb": 4.000006573941226
+    },
+    {
+      "label": "alpha",
+      "name": "/delta/QuantizeLinear_8_output_0",
+      "source": "/delta/QuantizeLinear_8_output_0",
+      "shape": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": 0.0038823531940579414,
+      "zp": 0,
+      "nrmse": 0.0,
+      "bias": 0.0,
+      "max_abs": 0.0,
+      "exact_fraction": 1.0,
+      "mean_lsb": 0.0,
+      "max_lsb": 0.0
+    },
+    {
+      "label": "beta_linear",
+      "name": "/delta/QuantizeLinear_10_output_0",
+      "source": "/delta/QuantizeLinear_10_output_0",
+      "shape": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": 0.07852564752101898,
+      "zp": 98,
+      "nrmse": 0.03586100710601292,
+      "bias": 0.006644483025257404,
+      "max_abs": 0.31410257518291473,
+      "exact_fraction": 0.4269230769230769,
+      "mean_lsb": 0.08461545030213057,
+      "max_lsb": 3.9999998102382897
+    },
+    {
+      "label": "beta",
+      "name": "/delta/QuantizeLinear_11_output_0",
+      "source": "/delta/QuantizeLinear_11_output_0",
+      "shape": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": 0.003921568859368563,
+      "zp": 0,
+      "nrmse": 0.021640028707714105,
+      "bias": 0.001568627070922118,
+      "max_abs": 0.05490196496248245,
+      "exact_fraction": 0.5192307692307693,
+      "mean_lsb": 0.39999987942955384,
+      "max_lsb": 14.000000237487242
+    },
+    {
+      "label": "old_product",
+      "name": "/delta/QuantizeLinear_13_output_0",
+      "source": "/delta/QuantizeLinear_13_output_0",
+      "shape": [
+        1,
+        32,
+        1,
+        32
+      ],
+      "scale": 0.009547477588057518,
+      "zp": 126,
+      "nrmse": 0.6727527687985583,
+      "bias": -0.04524300912807331,
+      "max_abs": 0.9642952084541321,
+      "exact_fraction": 0.4712965745192308,
+      "mean_lsb": -4.73873949541035,
+      "max_lsb": 100.99999707360641
+    },
+    {
+      "label": "old_sum",
+      "name": "/delta/QuantizeLinear_15_output_0",
+      "source": "/delta/QuantizeLinear_15_output_0",
+      "shape": [
+        1,
+        1,
+        1,
+        32
+      ],
+      "scale": 0.045114655047655106,
+      "zp": 122,
+      "nrmse": 2.1779441110419024,
+      "bias": -1.4471881242262987,
+      "max_abs": 9.970338582992554,
+      "exact_fraction": 0.012139423076923077,
+      "mean_lsb": -32.07800486776676,
+      "max_lsb": 220.99999595388184
+    },
+    {
+      "label": "alpha_old",
+      "name": "/delta/QuantizeLinear_16_output_0",
+      "source": "/delta/QuantizeLinear_16_output_0",
+      "shape": [
+        1,
+        1,
+        1,
+        32
+      ],
+      "scale": 0.04466351121664047,
+      "zp": 122,
+      "nrmse": 1.288753549766091,
+      "bias": -0.7057693674551466,
+      "max_abs": 7.905441522598267,
+      "exact_fraction": 0.03365384615384615,
+      "mean_lsb": -15.801923051499703,
+      "max_lsb": 177.00000083407915
+    },
+    {
+      "label": "value_error",
+      "name": "/delta/QuantizeLinear_17_output_0",
+      "source": "/delta/QuantizeLinear_17_output_0",
+      "shape": [
+        1,
+        1,
+        1,
+        32
+      ],
+      "scale": 0.06152713671326637,
+      "zp": 119,
+      "nrmse": 0.6499035504169671,
+      "bias": -0.0732631427276199,
+      "max_abs": 7.752419114112854,
+      "exact_fraction": 0.029086538461538462,
+      "mean_lsb": -1.190745200269055,
+      "max_lsb": 125.99999818358671
+    },
+    {
+      "label": "beta_error",
+      "name": "/delta/QuantizeLinear_18_output_0",
+      "source": "/delta/QuantizeLinear_18_output_0",
+      "shape": [
+        1,
+        1,
+        1,
+        32
+      ],
+      "scale": 0.05493057146668434,
+      "zp": 126,
+      "nrmse": 0.7816034131078199,
+      "bias": -0.04690886232464646,
+      "max_abs": 6.75646048784256,
+      "exact_fraction": 0.03413461538461538,
+      "mean_lsb": -0.8539663992590522,
+      "max_lsb": 123.0000035943625
+    },
+    {
+      "label": "decayed",
+      "name": "/delta/QuantizeLinear_19_output_0",
+      "source": "/delta/QuantizeLinear_19_output_0",
+      "shape": [
+        1,
+        32,
+        1,
+        32
+      ],
+      "scale": 0.05177651345729828,
+      "zp": 117,
+      "nrmse": 0.0,
+      "bias": 0.0,
+      "max_abs": 0.0,
+      "exact_fraction": 1.0,
+      "mean_lsb": 0.0,
+      "max_lsb": 0.0
+    },
+    {
+      "label": "outer",
+      "name": "/delta/QuantizeLinear_20_output_0",
+      "source": "/delta/QuantizeLinear_20_output_0",
+      "shape": [
+        1,
+        32,
+        1,
+        32
+      ],
+      "scale": 0.009806200861930847,
+      "zp": 127,
+      "nrmse": 0.9136231919486063,
+      "bias": 0.014507350403996847,
+      "max_abs": 1.2159688472747803,
+      "exact_fraction": 0.18759765625,
+      "mean_lsb": 1.4794057972355605,
+      "max_lsb": 123.99999392173936
+    },
+    {
+      "label": "read_product",
+      "name": "/delta/QuantizeLinear_22_output_0",
+      "source": "/delta/QuantizeLinear_22_output_0",
+      "shape": [
+        1,
+        32,
+        1,
+        32
+      ],
+      "scale": 0.009974963963031769,
+      "zp": 127,
+      "nrmse": 0.7751760961370463,
+      "bias": -0.08600064436496513,
+      "max_abs": 0.9974963665008545,
+      "exact_fraction": 0.1832256610576923,
+      "mean_lsb": -8.621649630383855,
+      "max_lsb": 99.99999701228771
+    },
+    {
+      "label": "read_sum",
+      "name": "/delta/QuantizeLinear_23_output_0",
+      "source": "/delta/QuantizeLinear_23_output_0",
+      "shape": [
+        1,
+        1,
+        1,
+        32
+      ],
+      "scale": 0.08412058651447296,
+      "zp": 128,
+      "nrmse": 2.045020759502647,
+      "bias": -2.751572253325811,
+      "max_abs": 9.589746952056885,
+      "exact_fraction": 0.004447115384615384,
+      "mean_lsb": -32.709855783666015,
+      "max_lsb": 114.00000106284288
+    }
+  ]
+}

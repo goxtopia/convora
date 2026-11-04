@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "question": "\u4f60\u597d\uff01",
+      "step": 0,
+      "max_difference": 6.198883056640625e-06,
+      "same_argmax": true
+    },
+    {
+      "question": "\u4f60\u597d\uff01",
+      "step": 7,
+      "max_difference": 7.62939453125e-06,
+      "same_argmax": true
+    },
+    {
+      "question": "\u53ea\u56de\u590d\uff1a\u665a\u5b89",
+      "step": 0,
+      "max_difference": 4.76837158203125e-06,
+      "same_argmax": true
+    },
+    {
+      "question": "\u53ea\u56de\u590d\uff1a\u665a\u5b89",
+      "step": 7,
+      "max_difference": 3.337860107421875e-06,
+      "same_argmax": true
+    }
+  ]
+}

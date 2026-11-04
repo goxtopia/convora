@@ -1,0 +1,11 @@
+# Preserve byte hashes of frozen source and original evidence across platforms.
+* -text whitespace=blank-at-eol,space-before-tab,cr-at-eol
+*.md text eol=lf
+*.pt binary
+*.onnx binary
+*.rknn binary
+*.f32 binary
+*.i8 binary
+*.i32 binary
+*.so binary
+runtime/pico-chat/board/pico-chatd binary

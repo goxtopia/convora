@@ -1,0 +1,22 @@
+{
+  "model": "delta4x32-lccc-sft-qat-compatible-20261029",
+  "parameters": 9289608,
+  "formal_full_checkpoint_sha256": "9db7a2fa06b2687bfaa8091b9814bbf6ce52c7aba64d45bd66af933a902adef5",
+  "optimizer_rng_included": false,
+  "weights": {
+    "models/float/qat-final.pt": {
+      "sha256": "c87ba126a71f6bdb34515dde18455d28439e9c6ef62d925f051e85cada36ad06",
+      "bytes": 37204623
+    },
+    "models/float/sft-before-qat.pt": {
+      "sha256": "d8d8946f094c48b700d4a5b1dcb1cf8b57a11f1150ae6936b47b168069ba259c",
+      "bytes": 37176695
+    }
+  },
+  "compatible_rknn_sha256": "6942f512bbc74c4d1ddd309fbd8cc580d959520d772c56c6098e0e38d8291175",
+  "rknn_tables": {
+    "embedding.f32": "44b40d884ddb6718a63c66084b13efa3c0cd0926727eaaec3a73e3b6037cf74b",
+    "memory.i8": "d01072ba585dff511ece5a4083f22abc97e178f5fd94f88d4b5dbf8d99abac5d",
+    "memory_scale.f32": "3bcfc96f9cd2e7e6e09739bbd78c66950ad398a91973126186652fe2f1de3a04"
+  }
+}

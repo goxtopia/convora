@@ -1,0 +1,9 @@
+{
+  "dilations": [1, 2, 4, 8, 16, 32, 1, 2],
+  "tie_embeddings": true,
+  "tied_head_projection": true,
+  "temporal_bias": true,
+  "block_style": "k3_relu_k1",
+  "head_norm": "none",
+  "channel_alpha": true
+}

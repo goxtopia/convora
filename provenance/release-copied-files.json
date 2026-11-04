@@ -1,0 +1,1070 @@
+{
+  "training/pretrain/source/training/__init__.py": {
+    "source": "training/__init__.py",
+    "source_sha256": "febfa712b1738ca050430a4f9a04a7b8354b291eadc59f76d05885314cc60fbc",
+    "modified": false,
+    "packaged_sha256": "febfa712b1738ca050430a4f9a04a7b8354b291eadc59f76d05885314cc60fbc"
+  },
+  "training/pretrain/source/training/model.py": {
+    "source": "sft-sawtooth8-artifacts/source/training/model.py",
+    "source_sha256": "ad6f2956f62929b93777098cf1881a8ceba309521dd31b2745b362133ac4a12b",
+    "modified": false,
+    "packaged_sha256": "ad6f2956f62929b93777098cf1881a8ceba309521dd31b2745b362133ac4a12b"
+  },
+  "training/pretrain/source/training/data.py": {
+    "source": "training/data.py",
+    "source_sha256": "7bda37fe27943226cc968e94c59e030e89bf74099d0e1ef0f98547f4345e1057",
+    "modified": false,
+    "packaged_sha256": "7bda37fe27943226cc968e94c59e030e89bf74099d0e1ef0f98547f4345e1057"
+  },
+  "training/pretrain/source/training/download.py": {
+    "source": "training/download.py",
+    "source_sha256": "f10cb37a0a3121273f945e2545223320be64fbd26b6fbe4c5a6fedc7a6192b62",
+    "modified": false,
+    "packaged_sha256": "f10cb37a0a3121273f945e2545223320be64fbd26b6fbe4c5a6fedc7a6192b62"
+  },
+  "training/pretrain/source/training/streaming.py": {
+    "source": "sft-sawtooth8-artifacts/source/training/streaming.py",
+    "source_sha256": "5517ec9e0d580bd027952c9e092eee393edcfdd452757a6a97b5a4ed98fc062b",
+    "modified": false,
+    "packaged_sha256": "5517ec9e0d580bd027952c9e092eee393edcfdd452757a6a97b5a4ed98fc062b"
+  },
+  "training/pretrain/source/training/export.py": {
+    "source": "sft-sawtooth8-artifacts/source/training/export.py",
+    "source_sha256": "bc6aa0d7266db9812c5818b26b16cc35717245e7d33362c1be014ce595730f81",
+    "modified": false,
+    "packaged_sha256": "bc6aa0d7266db9812c5818b26b16cc35717245e7d33362c1be014ce595730f81"
+  },
+  "training/pretrain/source/delta_layer.py": {
+    "source": "research/delta-pretrain-1epoch-20261028/delta_layer.py",
+    "source_sha256": "68952cca0a0f8eb2f1864f42ffea3b80dca30bd853bcc7a92d9d442f42dcc07f",
+    "modified": false,
+    "packaged_sha256": "68952cca0a0f8eb2f1864f42ffea3b80dca30bd853bcc7a92d9d442f42dcc07f"
+  },
+  "training/pretrain/source/delta_model.py": {
+    "source": "research/delta-pretrain-1epoch-20261028/delta_model.py",
+    "source_sha256": "6221b242718ecd4eaeb43362b2306702c82d9d1e306850120d0bddfb8f4eecc6",
+    "modified": false,
+    "packaged_sha256": "6221b242718ecd4eaeb43362b2306702c82d9d1e306850120d0bddfb8f4eecc6"
+  },
+  "training/pretrain/source/qat_delta.py": {
+    "source": "research/delta-pretrain-1epoch-20261028/qat_delta.py",
+    "source_sha256": "1782aa0a0cae2fdb4d593421d08bc350d1a6e70f2b4bf39fbe136a5648c828f9",
+    "modified": false,
+    "packaged_sha256": "1782aa0a0cae2fdb4d593421d08bc350d1a6e70f2b4bf39fbe136a5648c828f9"
+  },
+  "training/pretrain/source/fused_delta.py": {
+    "source": "research/delta-pretrain-1epoch-20261028/fused_delta.py",
+    "source_sha256": "e5a5c3f52f4a587b292429c42c8656866bfa27ce2959343dc4168ae829f178c9",
+    "modified": false,
+    "packaged_sha256": "e5a5c3f52f4a587b292429c42c8656866bfa27ce2959343dc4168ae829f178c9"
+  },
+  "training/pretrain/source/micro_graph.py": {
+    "source": "research/delta-pretrain-1epoch-20261028/micro_graph.py",
+    "source_sha256": "18a060069421b77d93448fc1d43838d4d42e7939e1095325a1d4710ca7828aa7",
+    "modified": false,
+    "packaged_sha256": "18a060069421b77d93448fc1d43838d4d42e7939e1095325a1d4710ca7828aa7"
+  },
+  "training/pretrain/source/prefix_data.py": {
+    "source": "research/delta-pretrain-1epoch-20261028/prefix_data.py",
+    "source_sha256": "e90c69a32d4866b95007d6388955ed644501fe41b461d9915f65964b6985b577",
+    "modified": false,
+    "packaged_sha256": "e90c69a32d4866b95007d6388955ed644501fe41b461d9915f65964b6985b577"
+  },
+  "training/pretrain/source/training/train.py": {
+    "source": "research/release-packaging-20261104/pretrain-train.py",
+    "source_sha256": "487002b5d9de1f844c36b8efd64d1a7321545b6968d0b4eda609f2b471a3785c",
+    "modified": false,
+    "packaged_sha256": "487002b5d9de1f844c36b8efd64d1a7321545b6968d0b4eda609f2b471a3785c"
+  },
+  "provenance/pretrain-historical-source-manifest.json": {
+    "source": "research/delta-pretrain-1epoch-20261029/source-manifest.json",
+    "source_sha256": "b6b57ae97c515714209606b8700f55e77ad356c0f9cc268069c31e16fff0be9a",
+    "modified": false,
+    "packaged_sha256": "b6b57ae97c515714209606b8700f55e77ad356c0f9cc268069c31e16fff0be9a"
+  },
+  "training/pretrain/model-config.json": {
+    "source": "lccc-evaluation-artifacts/source/training/configs/arch-sawtooth8.json",
+    "source_sha256": "8c2d5a7627e5817a9203946134942d6bacd7b25295fc7069ddc61a1b683687b1",
+    "modified": false,
+    "packaged_sha256": "8c2d5a7627e5817a9203946134942d6bacd7b25295fc7069ddc61a1b683687b1"
+  },
+  "training/pretrain/historical/train-config.json": {
+    "source": "research/delta-pretrain-1epoch-20261029/train-config.json",
+    "source_sha256": "13aade3d0c29dd2a7a06928b17999a76d26c7a0bf4598f4d43c91b95c7ed9e8c",
+    "modified": false,
+    "packaged_sha256": "13aade3d0c29dd2a7a06928b17999a76d26c7a0bf4598f4d43c91b95c7ed9e8c"
+  },
+  "training/pretrain/historical/audit.py": {
+    "source": "research/delta-pretrain-1epoch-20261029/audit.py",
+    "source_sha256": "c642af34b47e46762f35b0c1d7309aea330785198926644dbf1e99e16484df65",
+    "modified": false,
+    "packaged_sha256": "c642af34b47e46762f35b0c1d7309aea330785198926644dbf1e99e16484df65"
+  },
+  "training/pretrain/historical/launch.py": {
+    "source": "research/delta-pretrain-1epoch-20261029/launch.py",
+    "source_sha256": "f28413cd1910e14f5c8ca51a33b81f42a4c97a2d4514ed03aec18bb4da6ea2cd",
+    "modified": false,
+    "packaged_sha256": "f28413cd1910e14f5c8ca51a33b81f42a4c97a2d4514ed03aec18bb4da6ea2cd"
+  },
+  "training/sft/source/training/__init__.py": {
+    "source": "training/__init__.py",
+    "source_sha256": "febfa712b1738ca050430a4f9a04a7b8354b291eadc59f76d05885314cc60fbc",
+    "modified": false,
+    "packaged_sha256": "febfa712b1738ca050430a4f9a04a7b8354b291eadc59f76d05885314cc60fbc"
+  },
+  "training/sft/source/training/model.py": {
+    "source": "lccc-sft-artifacts/source/training/model.py",
+    "source_sha256": "38bceb490fdd1fda0f694e5043c345d8d3d40c1c3b20bae549ee4c777b56e48b",
+    "modified": false,
+    "packaged_sha256": "38bceb490fdd1fda0f694e5043c345d8d3d40c1c3b20bae549ee4c777b56e48b"
+  },
+  "training/sft/source/training/data.py": {
+    "source": "training/data.py",
+    "source_sha256": "7bda37fe27943226cc968e94c59e030e89bf74099d0e1ef0f98547f4345e1057",
+    "modified": false,
+    "packaged_sha256": "7bda37fe27943226cc968e94c59e030e89bf74099d0e1ef0f98547f4345e1057"
+  },
+  "training/sft/source/training/download.py": {
+    "source": "training/download.py",
+    "source_sha256": "f10cb37a0a3121273f945e2545223320be64fbd26b6fbe4c5a6fedc7a6192b62",
+    "modified": false,
+    "packaged_sha256": "f10cb37a0a3121273f945e2545223320be64fbd26b6fbe4c5a6fedc7a6192b62"
+  },
+  "training/sft/source/training/streaming.py": {
+    "source": "sft-sawtooth8-artifacts/source/training/streaming.py",
+    "source_sha256": "5517ec9e0d580bd027952c9e092eee393edcfdd452757a6a97b5a4ed98fc062b",
+    "modified": false,
+    "packaged_sha256": "5517ec9e0d580bd027952c9e092eee393edcfdd452757a6a97b5a4ed98fc062b"
+  },
+  "training/sft/source/training/export.py": {
+    "source": "sft-sawtooth8-artifacts/source/training/export.py",
+    "source_sha256": "bc6aa0d7266db9812c5818b26b16cc35717245e7d33362c1be014ce595730f81",
+    "modified": false,
+    "packaged_sha256": "bc6aa0d7266db9812c5818b26b16cc35717245e7d33362c1be014ce595730f81"
+  },
+  "training/sft/source/delta_layer.py": {
+    "source": "research/delta-pretrain-1epoch-20261028/delta_layer.py",
+    "source_sha256": "68952cca0a0f8eb2f1864f42ffea3b80dca30bd853bcc7a92d9d442f42dcc07f",
+    "modified": false,
+    "packaged_sha256": "68952cca0a0f8eb2f1864f42ffea3b80dca30bd853bcc7a92d9d442f42dcc07f"
+  },
+  "training/sft/source/delta_model.py": {
+    "source": "research/delta-pretrain-1epoch-20261028/delta_model.py",
+    "source_sha256": "6221b242718ecd4eaeb43362b2306702c82d9d1e306850120d0bddfb8f4eecc6",
+    "modified": false,
+    "packaged_sha256": "6221b242718ecd4eaeb43362b2306702c82d9d1e306850120d0bddfb8f4eecc6"
+  },
+  "training/sft/source/qat_delta.py": {
+    "source": "research/delta-pretrain-1epoch-20261028/qat_delta.py",
+    "source_sha256": "1782aa0a0cae2fdb4d593421d08bc350d1a6e70f2b4bf39fbe136a5648c828f9",
+    "modified": false,
+    "packaged_sha256": "1782aa0a0cae2fdb4d593421d08bc350d1a6e70f2b4bf39fbe136a5648c828f9"
+  },
+  "training/sft/source/fused_delta.py": {
+    "source": "research/delta-pretrain-1epoch-20261028/fused_delta.py",
+    "source_sha256": "e5a5c3f52f4a587b292429c42c8656866bfa27ce2959343dc4168ae829f178c9",
+    "modified": false,
+    "packaged_sha256": "e5a5c3f52f4a587b292429c42c8656866bfa27ce2959343dc4168ae829f178c9"
+  },
+  "training/sft/source/sft_model.py": {
+    "source": "research/delta-lccc-sft-20261029/sft_model.py",
+    "source_sha256": "0c332bf2b012929eae0dd5903904490c0244a5204923e17a26210036664d9bbf",
+    "modified": false,
+    "packaged_sha256": "0c332bf2b012929eae0dd5903904490c0244a5204923e17a26210036664d9bbf"
+  },
+  "training/sft/source/sft_data.py": {
+    "source": "research/delta-lccc-sft-20261029/sft_data.py",
+    "source_sha256": "1e5d30776a42761d67cad2e99b8e6d84194fad23983b295528cdb18c36a4bbe8",
+    "modified": false,
+    "packaged_sha256": "1e5d30776a42761d67cad2e99b8e6d84194fad23983b295528cdb18c36a4bbe8"
+  },
+  "training/sft/source/sft_graph.py": {
+    "source": "research/delta-lccc-sft-20261029/sft_graph.py",
+    "source_sha256": "0358f365200e84e0f6bd366206527458f8f4c1a43d4ca71dea0059788f22bdde",
+    "modified": false,
+    "packaged_sha256": "0358f365200e84e0f6bd366206527458f8f4c1a43d4ca71dea0059788f22bdde"
+  },
+  "training/sft/source/training/train.py": {
+    "source": "research/release-packaging-20261104/sft-train.py",
+    "source_sha256": "aa2a533fa86012cb8ae4e9acdd1b7301d4d9d0d8c84a26c7337684bd2e07276c",
+    "modified": false,
+    "packaged_sha256": "aa2a533fa86012cb8ae4e9acdd1b7301d4d9d0d8c84a26c7337684bd2e07276c"
+  },
+  "provenance/sft-historical-source-manifest.json": {
+    "source": "research/delta-lccc-sft-20261029/source-manifest.json",
+    "source_sha256": "4d6e6bf19cd8ffdb899b5970267da6daea2234c7aaf371f54f5f32287db7b062",
+    "modified": false,
+    "packaged_sha256": "4d6e6bf19cd8ffdb899b5970267da6daea2234c7aaf371f54f5f32287db7b062"
+  },
+  "training/sft/model-config.json": {
+    "source": "lccc-evaluation-artifacts/source/training/configs/arch-sawtooth8.json",
+    "source_sha256": "8c2d5a7627e5817a9203946134942d6bacd7b25295fc7069ddc61a1b683687b1",
+    "modified": false,
+    "packaged_sha256": "8c2d5a7627e5817a9203946134942d6bacd7b25295fc7069ddc61a1b683687b1"
+  },
+  "training/sft/historical/config.json": {
+    "source": "research/delta-lccc-sft-20261029/config.json",
+    "source_sha256": "462b18442f1f9e83fd86b4b84c4a023ad7e023d988d8c4f6053eec1a51859bce",
+    "modified": false,
+    "packaged_sha256": "462b18442f1f9e83fd86b4b84c4a023ad7e023d988d8c4f6053eec1a51859bce"
+  },
+  "training/sft/historical/audit.py": {
+    "source": "research/delta-lccc-sft-20261029/audit.py",
+    "source_sha256": "ee7d8997a3496a10fa149943214515970c25d7fd47921660380d887027eb8d42",
+    "modified": false,
+    "packaged_sha256": "ee7d8997a3496a10fa149943214515970c25d7fd47921660380d887027eb8d42"
+  },
+  "training/sft/historical/setup.py": {
+    "source": "research/delta-lccc-sft-20261029/setup.py",
+    "source_sha256": "1f2019564dede8aab81871c30437a19a1e2f9503e080594e5a57b3bea8e406cb",
+    "modified": false,
+    "packaged_sha256": "1f2019564dede8aab81871c30437a19a1e2f9503e080594e5a57b3bea8e406cb"
+  },
+  "training/sft/historical/launch.py": {
+    "source": "research/delta-lccc-sft-20261029/launch.py",
+    "source_sha256": "5fc4c0e04708442405b2d8549becaaf55409c6f2950715cfb11adb6692748e42",
+    "modified": false,
+    "packaged_sha256": "5fc4c0e04708442405b2d8549becaaf55409c6f2950715cfb11adb6692748e42"
+  },
+  "training/sft/historical/compare.py": {
+    "source": "research/delta-lccc-sft-20261029/compare.py",
+    "source_sha256": "0bcb422f6b92ca811b11b009054f14d81c2024c8ebef38e9df3e1c3384d3cdc2",
+    "modified": false,
+    "packaged_sha256": "0bcb422f6b92ca811b11b009054f14d81c2024c8ebef38e9df3e1c3384d3cdc2"
+  },
+  "training/sft/historical/diagnostic_cases.py": {
+    "source": "research/delta-lccc-sft-20261029/diagnostic_cases.py",
+    "source_sha256": "7df50819dec42ba8b733cdac9366974b64348d05149d07abb4ab9097c4aa66f1",
+    "modified": false,
+    "packaged_sha256": "7df50819dec42ba8b733cdac9366974b64348d05149d07abb4ab9097c4aa66f1"
+  },
+  "training/qat/source/training/__init__.py": {
+    "source": "training/__init__.py",
+    "source_sha256": "febfa712b1738ca050430a4f9a04a7b8354b291eadc59f76d05885314cc60fbc",
+    "modified": false,
+    "packaged_sha256": "febfa712b1738ca050430a4f9a04a7b8354b291eadc59f76d05885314cc60fbc"
+  },
+  "training/qat/source/training/model.py": {
+    "source": "lccc-sft-artifacts/source/training/model.py",
+    "source_sha256": "38bceb490fdd1fda0f694e5043c345d8d3d40c1c3b20bae549ee4c777b56e48b",
+    "modified": false,
+    "packaged_sha256": "38bceb490fdd1fda0f694e5043c345d8d3d40c1c3b20bae549ee4c777b56e48b"
+  },
+  "training/qat/source/training/data.py": {
+    "source": "training/data.py",
+    "source_sha256": "7bda37fe27943226cc968e94c59e030e89bf74099d0e1ef0f98547f4345e1057",
+    "modified": false,
+    "packaged_sha256": "7bda37fe27943226cc968e94c59e030e89bf74099d0e1ef0f98547f4345e1057"
+  },
+  "training/qat/source/training/download.py": {
+    "source": "training/download.py",
+    "source_sha256": "f10cb37a0a3121273f945e2545223320be64fbd26b6fbe4c5a6fedc7a6192b62",
+    "modified": false,
+    "packaged_sha256": "f10cb37a0a3121273f945e2545223320be64fbd26b6fbe4c5a6fedc7a6192b62"
+  },
+  "training/qat/source/training/streaming.py": {
+    "source": "sft-sawtooth8-artifacts/source/training/streaming.py",
+    "source_sha256": "5517ec9e0d580bd027952c9e092eee393edcfdd452757a6a97b5a4ed98fc062b",
+    "modified": false,
+    "packaged_sha256": "5517ec9e0d580bd027952c9e092eee393edcfdd452757a6a97b5a4ed98fc062b"
+  },
+  "training/qat/source/training/export.py": {
+    "source": "sft-sawtooth8-artifacts/source/training/export.py",
+    "source_sha256": "bc6aa0d7266db9812c5818b26b16cc35717245e7d33362c1be014ce595730f81",
+    "modified": false,
+    "packaged_sha256": "bc6aa0d7266db9812c5818b26b16cc35717245e7d33362c1be014ce595730f81"
+  },
+  "training/qat/source/delta_layer.py": {
+    "source": "research/delta-pretrain-1epoch-20261028/delta_layer.py",
+    "source_sha256": "68952cca0a0f8eb2f1864f42ffea3b80dca30bd853bcc7a92d9d442f42dcc07f",
+    "modified": false,
+    "packaged_sha256": "68952cca0a0f8eb2f1864f42ffea3b80dca30bd853bcc7a92d9d442f42dcc07f"
+  },
+  "training/qat/source/delta_model.py": {
+    "source": "research/delta-pretrain-1epoch-20261028/delta_model.py",
+    "source_sha256": "6221b242718ecd4eaeb43362b2306702c82d9d1e306850120d0bddfb8f4eecc6",
+    "modified": false,
+    "packaged_sha256": "6221b242718ecd4eaeb43362b2306702c82d9d1e306850120d0bddfb8f4eecc6"
+  },
+  "training/qat/source/qat_delta.py": {
+    "source": "research/delta-pretrain-1epoch-20261028/qat_delta.py",
+    "source_sha256": "1782aa0a0cae2fdb4d593421d08bc350d1a6e70f2b4bf39fbe136a5648c828f9",
+    "modified": false,
+    "packaged_sha256": "1782aa0a0cae2fdb4d593421d08bc350d1a6e70f2b4bf39fbe136a5648c828f9"
+  },
+  "training/qat/source/fused_delta.py": {
+    "source": "research/delta-pretrain-1epoch-20261028/fused_delta.py",
+    "source_sha256": "e5a5c3f52f4a587b292429c42c8656866bfa27ce2959343dc4168ae829f178c9",
+    "modified": false,
+    "packaged_sha256": "e5a5c3f52f4a587b292429c42c8656866bfa27ce2959343dc4168ae829f178c9"
+  },
+  "training/qat/source/sft_model.py": {
+    "source": "research/delta-lccc-sft-20261029/sft_model.py",
+    "source_sha256": "0c332bf2b012929eae0dd5903904490c0244a5204923e17a26210036664d9bbf",
+    "modified": false,
+    "packaged_sha256": "0c332bf2b012929eae0dd5903904490c0244a5204923e17a26210036664d9bbf"
+  },
+  "training/qat/source/sft_data.py": {
+    "source": "research/delta-lccc-sft-20261029/sft_data.py",
+    "source_sha256": "1e5d30776a42761d67cad2e99b8e6d84194fad23983b295528cdb18c36a4bbe8",
+    "modified": true,
+    "packaged_sha256": "377dc47ecc4c95b4b49aa2244aa26adc90afde41cd6bb386900376d1344398b7"
+  },
+  "training/qat/source/sft_graph.py": {
+    "source": "research/delta-lccc-sft-20261029/sft_graph.py",
+    "source_sha256": "0358f365200e84e0f6bd366206527458f8f4c1a43d4ca71dea0059788f22bdde",
+    "modified": true,
+    "packaged_sha256": "74a78e91f3e6ade123f4a9996101f9f4b70bb6f58a47a7989ea846e67b11b0f1"
+  },
+  "training/qat/source/training/train.py": {
+    "source": "research/release-packaging-20261104/sft-train.py",
+    "source_sha256": "aa2a533fa86012cb8ae4e9acdd1b7301d4d9d0d8c84a26c7337684bd2e07276c",
+    "modified": false,
+    "packaged_sha256": "aa2a533fa86012cb8ae4e9acdd1b7301d4d9d0d8c84a26c7337684bd2e07276c"
+  },
+  "training/qat/source/train.py": {
+    "source": "research/delta-sft-qat-board-20261029/train.py",
+    "source_sha256": "83e745cfee8db88cabc061c59a1dc6c64ff8853f00ae794e043c9bd4a9282002",
+    "modified": false,
+    "packaged_sha256": "83e745cfee8db88cabc061c59a1dc6c64ff8853f00ae794e043c9bd4a9282002"
+  },
+  "training/qat/source/qat_model.py": {
+    "source": "research/delta-sft-qat-board-20261029/qat_model.py",
+    "source_sha256": "fb0c42baac3cc8d885d5b3e83eee6c926b69e80e58bfa977bfc278ef061635a2",
+    "modified": false,
+    "packaged_sha256": "fb0c42baac3cc8d885d5b3e83eee6c926b69e80e58bfa977bfc278ef061635a2"
+  },
+  "provenance/qat-historical-source-manifest.json": {
+    "source": "research/delta-sft-qat-board-20261029/qat-source-manifest.json",
+    "source_sha256": "d8551be38a56662843e242373b48315926c7fd44875b009d6ba839f126488ea8",
+    "modified": false,
+    "packaged_sha256": "d8551be38a56662843e242373b48315926c7fd44875b009d6ba839f126488ea8"
+  },
+  "training/qat/model-config.json": {
+    "source": "lccc-evaluation-artifacts/source/training/configs/arch-sawtooth8.json",
+    "source_sha256": "8c2d5a7627e5817a9203946134942d6bacd7b25295fc7069ddc61a1b683687b1",
+    "modified": false,
+    "packaged_sha256": "8c2d5a7627e5817a9203946134942d6bacd7b25295fc7069ddc61a1b683687b1"
+  },
+  "training/qat/historical/launch.py": {
+    "source": "research/delta-sft-qat-board-20261029/launch.py",
+    "source_sha256": "6b9978797f8e1c4a6772e39b747fadeb2b5a87ee262ee1b05999702578bc7187",
+    "modified": false,
+    "packaged_sha256": "6b9978797f8e1c4a6772e39b747fadeb2b5a87ee262ee1b05999702578bc7187"
+  },
+  "training/qat/historical/calibration.json": {
+    "source": "research/delta-sft-qat-board-20261029/calibration.json",
+    "source_sha256": "26d9ce08560c3f6a29463d0768689a15bec98f2cc8532722ff653c71197ad679",
+    "modified": false,
+    "packaged_sha256": "26d9ce08560c3f6a29463d0768689a15bec98f2cc8532722ff653c71197ad679"
+  },
+  "modeling/training/__init__.py": {
+    "source": "training/__init__.py",
+    "source_sha256": "febfa712b1738ca050430a4f9a04a7b8354b291eadc59f76d05885314cc60fbc",
+    "modified": false,
+    "packaged_sha256": "febfa712b1738ca050430a4f9a04a7b8354b291eadc59f76d05885314cc60fbc"
+  },
+  "modeling/training/model.py": {
+    "source": "lccc-sft-artifacts/source/training/model.py",
+    "source_sha256": "38bceb490fdd1fda0f694e5043c345d8d3d40c1c3b20bae549ee4c777b56e48b",
+    "modified": false,
+    "packaged_sha256": "38bceb490fdd1fda0f694e5043c345d8d3d40c1c3b20bae549ee4c777b56e48b"
+  },
+  "modeling/training/data.py": {
+    "source": "training/data.py",
+    "source_sha256": "7bda37fe27943226cc968e94c59e030e89bf74099d0e1ef0f98547f4345e1057",
+    "modified": false,
+    "packaged_sha256": "7bda37fe27943226cc968e94c59e030e89bf74099d0e1ef0f98547f4345e1057"
+  },
+  "modeling/training/download.py": {
+    "source": "training/download.py",
+    "source_sha256": "f10cb37a0a3121273f945e2545223320be64fbd26b6fbe4c5a6fedc7a6192b62",
+    "modified": false,
+    "packaged_sha256": "f10cb37a0a3121273f945e2545223320be64fbd26b6fbe4c5a6fedc7a6192b62"
+  },
+  "modeling/training/streaming.py": {
+    "source": "sft-sawtooth8-artifacts/source/training/streaming.py",
+    "source_sha256": "5517ec9e0d580bd027952c9e092eee393edcfdd452757a6a97b5a4ed98fc062b",
+    "modified": false,
+    "packaged_sha256": "5517ec9e0d580bd027952c9e092eee393edcfdd452757a6a97b5a4ed98fc062b"
+  },
+  "modeling/training/export.py": {
+    "source": "sft-sawtooth8-artifacts/source/training/export.py",
+    "source_sha256": "bc6aa0d7266db9812c5818b26b16cc35717245e7d33362c1be014ce595730f81",
+    "modified": false,
+    "packaged_sha256": "bc6aa0d7266db9812c5818b26b16cc35717245e7d33362c1be014ce595730f81"
+  },
+  "modeling/delta_layer.py": {
+    "source": "research/delta-pretrain-1epoch-20261028/delta_layer.py",
+    "source_sha256": "68952cca0a0f8eb2f1864f42ffea3b80dca30bd853bcc7a92d9d442f42dcc07f",
+    "modified": false,
+    "packaged_sha256": "68952cca0a0f8eb2f1864f42ffea3b80dca30bd853bcc7a92d9d442f42dcc07f"
+  },
+  "modeling/delta_model.py": {
+    "source": "research/delta-pretrain-1epoch-20261028/delta_model.py",
+    "source_sha256": "6221b242718ecd4eaeb43362b2306702c82d9d1e306850120d0bddfb8f4eecc6",
+    "modified": false,
+    "packaged_sha256": "6221b242718ecd4eaeb43362b2306702c82d9d1e306850120d0bddfb8f4eecc6"
+  },
+  "modeling/qat_delta.py": {
+    "source": "research/delta-pretrain-1epoch-20261028/qat_delta.py",
+    "source_sha256": "1782aa0a0cae2fdb4d593421d08bc350d1a6e70f2b4bf39fbe136a5648c828f9",
+    "modified": false,
+    "packaged_sha256": "1782aa0a0cae2fdb4d593421d08bc350d1a6e70f2b4bf39fbe136a5648c828f9"
+  },
+  "modeling/fused_delta.py": {
+    "source": "research/delta-pretrain-1epoch-20261028/fused_delta.py",
+    "source_sha256": "e5a5c3f52f4a587b292429c42c8656866bfa27ce2959343dc4168ae829f178c9",
+    "modified": false,
+    "packaged_sha256": "e5a5c3f52f4a587b292429c42c8656866bfa27ce2959343dc4168ae829f178c9"
+  },
+  "modeling/training/train.py": {
+    "source": "lccc-evaluation-artifacts/source/training/train.py",
+    "source_sha256": "943285dac4b812a3006c7b6eca111bbe629743f43a1a0dbe93c9d099bc49a715",
+    "modified": false,
+    "packaged_sha256": "943285dac4b812a3006c7b6eca111bbe629743f43a1a0dbe93c9d099bc49a715"
+  },
+  "modeling/sft_model.py": {
+    "source": "research/delta-lccc-sft-20261029/sft_model.py",
+    "source_sha256": "0c332bf2b012929eae0dd5903904490c0244a5204923e17a26210036664d9bbf",
+    "modified": false,
+    "packaged_sha256": "0c332bf2b012929eae0dd5903904490c0244a5204923e17a26210036664d9bbf"
+  },
+  "modeling/qat_model.py": {
+    "source": "research/delta-sft-qat-board-20261029/qat_model.py",
+    "source_sha256": "fb0c42baac3cc8d885d5b3e83eee6c926b69e80e58bfa977bfc278ef061635a2",
+    "modified": false,
+    "packaged_sha256": "fb0c42baac3cc8d885d5b3e83eee6c926b69e80e58bfa977bfc278ef061635a2"
+  },
+  "models/float/qat-final.pt": {
+    "source": "research/delta-sft-qat-board-20261029/qat-deploy.pt",
+    "source_sha256": "c87ba126a71f6bdb34515dde18455d28439e9c6ef62d925f051e85cada36ad06",
+    "modified": false,
+    "packaged_sha256": "c87ba126a71f6bdb34515dde18455d28439e9c6ef62d925f051e85cada36ad06"
+  },
+  "models/float/sft-before-qat.pt": {
+    "source": "research/delta-sft-qat-board-20261029/fp-deploy.pt",
+    "source_sha256": "d8d8946f094c48b700d4a5b1dcb1cf8b57a11f1150ae6936b47b168069ba259c",
+    "modified": false,
+    "packaged_sha256": "d8d8946f094c48b700d4a5b1dcb1cf8b57a11f1150ae6936b47b168069ba259c"
+  },
+  "models/rknn/model.rknn": {
+    "source": "research/qat-toolchain-match-20261029/layout-conv/model.rknn",
+    "source_sha256": "6942f512bbc74c4d1ddd309fbd8cc580d959520d772c56c6098e0e38d8291175",
+    "modified": false,
+    "packaged_sha256": "6942f512bbc74c4d1ddd309fbd8cc580d959520d772c56c6098e0e38d8291175"
+  },
+  "models/onnx/compatible.onnx": {
+    "source": "research/qat-toolchain-match-20261029/layout-conv/step.onnx",
+    "source_sha256": "0dd4bf93a825a87c90914f3135626aab6de5b3655090de9c2b2c1215861ecf94",
+    "modified": false,
+    "packaged_sha256": "0dd4bf93a825a87c90914f3135626aab6de5b3655090de9c2b2c1215861ecf94"
+  },
+  "models/onnx/float.onnx": {
+    "source": "research/delta-sft-qat-board-20261029/qat-qdq/float.onnx",
+    "source_sha256": "929a2abd34ed0392d9677b987fa1b06aed261276e6860d568d0306a32e49efe2",
+    "modified": false,
+    "packaged_sha256": "929a2abd34ed0392d9677b987fa1b06aed261276e6860d568d0306a32e49efe2"
+  },
+  "models/onnx/qat-original.onnx": {
+    "source": "research/delta-sft-qat-board-20261029/qat-qdq/step.onnx",
+    "source_sha256": "d79ce0780f512cfabb7337023055c83ea38f2fa4994c8f3cc0f71493e7587f14",
+    "modified": false,
+    "packaged_sha256": "d79ce0780f512cfabb7337023055c83ea38f2fa4994c8f3cc0f71493e7587f14"
+  },
+  "models/rknn/embedding.f32": {
+    "source": "research/delta-sft-qat-board-20261029/qat-qdq/data/embedding.f32",
+    "source_sha256": "44b40d884ddb6718a63c66084b13efa3c0cd0926727eaaec3a73e3b6037cf74b",
+    "modified": false,
+    "packaged_sha256": "44b40d884ddb6718a63c66084b13efa3c0cd0926727eaaec3a73e3b6037cf74b"
+  },
+  "models/rknn/memory.i8": {
+    "source": "research/delta-sft-qat-board-20261029/qat-qdq/data/memory.i8",
+    "source_sha256": "d01072ba585dff511ece5a4083f22abc97e178f5fd94f88d4b5dbf8d99abac5d",
+    "modified": false,
+    "packaged_sha256": "d01072ba585dff511ece5a4083f22abc97e178f5fd94f88d4b5dbf8d99abac5d"
+  },
+  "models/rknn/memory_scale.f32": {
+    "source": "research/delta-sft-qat-board-20261029/qat-qdq/data/memory_scale.f32",
+    "source_sha256": "3bcfc96f9cd2e7e6e09739bbd78c66950ad398a91973126186652fe2f1de3a04",
+    "modified": false,
+    "packaged_sha256": "3bcfc96f9cd2e7e6e09739bbd78c66950ad398a91973126186652fe2f1de3a04"
+  },
+  "tests/fixtures/sequence.i32": {
+    "source": "research/delta-sft-qat-board-20261029/qat-qdq/data/sequence.i32",
+    "source_sha256": "45269d9f9bc188bf4d3414b6956eb291c5b4dad8ee62f69fb01a11aff875f861",
+    "modified": false,
+    "packaged_sha256": "45269d9f9bc188bf4d3414b6956eb291c5b4dad8ee62f69fb01a11aff875f861"
+  },
+  "models/rknn/engram_config.h": {
+    "source": "research/delta-sft-qat-board-20261029/qat-qdq/engram_config.h",
+    "source_sha256": "8fb16e2b68bec172a2a1bcd5e1977bcf9e29dfebcea10159c1af1c9e47e9582a",
+    "modified": false,
+    "packaged_sha256": "8fb16e2b68bec172a2a1bcd5e1977bcf9e29dfebcea10159c1af1c9e47e9582a"
+  },
+  "models/model.json": {
+    "source": "pico-chat/model.json",
+    "source_sha256": "cae121848a857f78a2540fe9a72c058282baff7d36824bd86863e48968f40e31",
+    "modified": false,
+    "packaged_sha256": "cae121848a857f78a2540fe9a72c058282baff7d36824bd86863e48968f40e31"
+  },
+  "models/tokenizer.json": {
+    "source": "pico-chat/tokenizer.json",
+    "source_sha256": "71f32c68cf63a15355a8fc171b7594b3d41870fe0ddb54fc6aefa55f73a4a668",
+    "modified": false,
+    "packaged_sha256": "71f32c68cf63a15355a8fc171b7594b3d41870fe0ddb54fc6aefa55f73a4a668"
+  },
+  "tests/fixtures/inputs.f32": {
+    "source": "research/qat-toolchain-match-20261029/layout-conv/inputs.f32",
+    "source_sha256": "71d34e34af9801e93cb08261777d5417aff78c7571e786b17bcbf1d598d9a146",
+    "modified": false,
+    "packaged_sha256": "71d34e34af9801e93cb08261777d5417aff78c7571e786b17bcbf1d598d9a146"
+  },
+  "tests/fixtures/expected.f32": {
+    "source": "research/qat-toolchain-match-20261029/layout-conv/expected.f32",
+    "source_sha256": "3b1888b7d5df1fc79cffc7cfd6c9fcc26a57c7adbbaa02985307813315f2d472",
+    "modified": false,
+    "packaged_sha256": "3b1888b7d5df1fc79cffc7cfd6c9fcc26a57c7adbbaa02985307813315f2d472"
+  },
+  "tests/fixtures/shapes.txt": {
+    "source": "research/qat-toolchain-match-20261029/layout-conv/shapes.txt",
+    "source_sha256": "1a608af091920321415111483f7947fb2f4849d212cfe8ef1294bf37cf559d37",
+    "modified": false,
+    "packaged_sha256": "1a608af091920321415111483f7947fb2f4849d212cfe8ef1294bf37cf559d37"
+  },
+  "tests/fixtures/npu-single-step.f32": {
+    "source": "research/qat-toolchain-match-20261029/board-layout/layout-conv/actual.f32",
+    "source_sha256": "a2e782aeb3baffca765261a66d3361591ff66fca342c3ccfb7be8a5609594a2b",
+    "modified": false,
+    "packaged_sha256": "a2e782aeb3baffca765261a66d3361591ff66fca342c3ccfb7be8a5609594a2b"
+  },
+  "tests/fixtures/npu-closed-logits.f32": {
+    "source": "research/qat-toolchain-match-20261029/board-closed-layout-conv/logits.f32",
+    "source_sha256": "b79f8c2a3575e501ebeb01482df1e17598a1d0213219cca8b90dcbafdb7d1523",
+    "modified": false,
+    "packaged_sha256": "b79f8c2a3575e501ebeb01482df1e17598a1d0213219cca8b90dcbafdb7d1523"
+  },
+  "tests/fixtures/npu-closed-states.f32": {
+    "source": "research/qat-toolchain-match-20261029/board-closed-layout-conv/states.f32",
+    "source_sha256": "b81e4159e889f73b7b16af98dc6b651c5694398be96100c84f10a24960a5f212",
+    "modified": false,
+    "packaged_sha256": "b81e4159e889f73b7b16af98dc6b651c5694398be96100c84f10a24960a5f212"
+  },
+  "tests/fixtures/qdq-closed-logits.f32": {
+    "source": "research/qat-toolchain-match-20261029/layout-conv/closed-logits.f32",
+    "source_sha256": "c815e7c6330ca15d6841225853663ff8eabe8e2a4d35f86873e8c7656a9b4f2b",
+    "modified": false,
+    "packaged_sha256": "c815e7c6330ca15d6841225853663ff8eabe8e2a4d35f86873e8c7656a9b4f2b"
+  },
+  "tests/fixtures/qdq-closed-states.f32": {
+    "source": "research/qat-toolchain-match-20261029/layout-conv/closed-states.f32",
+    "source_sha256": "c721ba0b2e1fa7c6b5fedbb50201181751ced0c0b354d1174a3d1fda613b0c93",
+    "modified": false,
+    "packaged_sha256": "c721ba0b2e1fa7c6b5fedbb50201181751ced0c0b354d1174a3d1fda613b0c93"
+  },
+  "tests/fixtures/fp-closed-logits.f32": {
+    "source": "research/delta-sft-qat-board-20261029/qat-qdq/data/reference.f32",
+    "source_sha256": "34768121df436d2cf0ac028eb55f1c246522e148cd0291e553ac821b57853795",
+    "modified": false,
+    "packaged_sha256": "34768121df436d2cf0ac028eb55f1c246522e148cd0291e553ac821b57853795"
+  },
+  "tests/fixtures/fp-closed-states.f32": {
+    "source": "research/delta-sft-qat-board-20261029/qat-qdq/data/state-reference.f32",
+    "source_sha256": "293ded6c01877ef06c7ea102d1b60a4fd3e4af0e22719cb6204b858850b025af",
+    "modified": false,
+    "packaged_sha256": "293ded6c01877ef06c7ea102d1b60a4fd3e4af0e22719cb6204b858850b025af"
+  },
+  "reports/pretrain/completion-audit.json": {
+    "source": "research/delta-pretrain-1epoch-20261029/completion-audit.json",
+    "source_sha256": "5be86ae9619bf05870cc470dfc293e828e0e672e94e46463ce706d3ebc713c80",
+    "modified": false,
+    "packaged_sha256": "5be86ae9619bf05870cc470dfc293e828e0e672e94e46463ce706d3ebc713c80"
+  },
+  "reports/pretrain/preparation.json": {
+    "source": "research/delta-pretrain-1epoch-20261029/preparation.json",
+    "source_sha256": "95a938256d93538f2ac32e81e6a3590cae08a28e263a79f91fe74f018154bfa0",
+    "modified": false,
+    "packaged_sha256": "95a938256d93538f2ac32e81e6a3590cae08a28e263a79f91fe74f018154bfa0"
+  },
+  "reports/pretrain/smoke-validation.json": {
+    "source": "research/delta-pretrain-1epoch-20261029/smoke-validation.json",
+    "source_sha256": "e5baa9788ac0f4d49b200a12eb05750e3fac4d52d43be01494b6b13ee9747843",
+    "modified": false,
+    "packaged_sha256": "e5baa9788ac0f4d49b200a12eb05750e3fac4d52d43be01494b6b13ee9747843"
+  },
+  "reports/pretrain/pretrain/completion.json": {
+    "source": "research/delta-pretrain-1epoch-20261029/pretrain/completion.json",
+    "source_sha256": "5be86ae9619bf05870cc470dfc293e828e0e672e94e46463ce706d3ebc713c80",
+    "modified": false,
+    "packaged_sha256": "5be86ae9619bf05870cc470dfc293e828e0e672e94e46463ce706d3ebc713c80"
+  },
+  "reports/pretrain/train-config.json": {
+    "source": "research/delta-pretrain-1epoch-20261029/train-config.json",
+    "source_sha256": "13aade3d0c29dd2a7a06928b17999a76d26c7a0bf4598f4d43c91b95c7ed9e8c",
+    "modified": false,
+    "packaged_sha256": "13aade3d0c29dd2a7a06928b17999a76d26c7a0bf4598f4d43c91b95c7ed9e8c"
+  },
+  "reports/sft/completion-summary.json": {
+    "source": "research/delta-lccc-sft-20261029/completion-summary.json",
+    "source_sha256": "20bf726020574a7b283d80779e9a11513ab4f1e4b5cf94a8c9cae5e093063f96",
+    "modified": false,
+    "packaged_sha256": "20bf726020574a7b283d80779e9a11513ab4f1e4b5cf94a8c9cae5e093063f96"
+  },
+  "reports/sft/comparison.json": {
+    "source": "research/delta-lccc-sft-20261029/comparison.json",
+    "source_sha256": "e6018f4e633264c8b2eaf5b5d98f0dae93aa055763babb297ceffcd3cb48eb5d",
+    "modified": false,
+    "packaged_sha256": "e6018f4e633264c8b2eaf5b5d98f0dae93aa055763babb297ceffcd3cb48eb5d"
+  },
+  "reports/sft/train-completion-audit.json": {
+    "source": "research/delta-lccc-sft-20261029/train-completion-audit.json",
+    "source_sha256": "1b0821abc62a9448ae6aef6acb24dccd5e52610c0be729b19a6db4af53abec77",
+    "modified": false,
+    "packaged_sha256": "1b0821abc62a9448ae6aef6acb24dccd5e52610c0be729b19a6db4af53abec77"
+  },
+  "reports/sft/preparation.json": {
+    "source": "research/delta-lccc-sft-20261029/preparation.json",
+    "source_sha256": "5544921469289f628fc58236cc62463f68039206bdcea76a116550b89f74c325",
+    "modified": false,
+    "packaged_sha256": "5544921469289f628fc58236cc62463f68039206bdcea76a116550b89f74c325"
+  },
+  "reports/sft/preflight-report.json": {
+    "source": "research/delta-lccc-sft-20261029/preflight-report.json",
+    "source_sha256": "d3374e5b31a1ec62e072d07897d132152397fddbcc8e000e04686cda1cb7a7ac",
+    "modified": false,
+    "packaged_sha256": "d3374e5b31a1ec62e072d07897d132152397fddbcc8e000e04686cda1cb7a7ac"
+  },
+  "reports/sft/resume-validation.json": {
+    "source": "research/delta-lccc-sft-20261029/resume-validation.json",
+    "source_sha256": "bfdac6ed64e1f89bb2c5ba3156731237600cef820f8fd5ccaada7cee66e7a4b4",
+    "modified": false,
+    "packaged_sha256": "bfdac6ed64e1f89bb2c5ba3156731237600cef820f8fd5ccaada7cee66e7a4b4"
+  },
+  "reports/sft/generation-cache-validation.json": {
+    "source": "research/delta-lccc-sft-20261029/generation-cache-validation.json",
+    "source_sha256": "1b2189aba3107b40ea4e4f01fd8b2b2207ca2850fec6a6702eadcde9c07bebe2",
+    "modified": false,
+    "packaged_sha256": "1b2189aba3107b40ea4e4f01fd8b2b2207ca2850fec6a6702eadcde9c07bebe2"
+  },
+  "reports/sft/old-predictions.json": {
+    "source": "research/delta-lccc-sft-20261029/old-predictions.json",
+    "source_sha256": "0c677b1f021e74d129e6e13e117e499c9bbb0467773cd25af1dc64f9bef9465b",
+    "modified": false,
+    "packaged_sha256": "0c677b1f021e74d129e6e13e117e499c9bbb0467773cd25af1dc64f9bef9465b"
+  },
+  "reports/sft/delta-predictions.json": {
+    "source": "research/delta-lccc-sft-20261029/delta-predictions.json",
+    "source_sha256": "8db692cb1ff9ba602accea240408668f117288ea01b17509f73bfc04603df591",
+    "modified": false,
+    "packaged_sha256": "8db692cb1ff9ba602accea240408668f117288ea01b17509f73bfc04603df591"
+  },
+  "reports/sft/data/asset-sha256.json": {
+    "source": "research/delta-lccc-sft-20261029/data/asset-sha256.json",
+    "source_sha256": "bdd72461d3656c074fe4ebceec4bca4360338d2be8d6f0c5344fa79ed278ee1f",
+    "modified": false,
+    "packaged_sha256": "bdd72461d3656c074fe4ebceec4bca4360338d2be8d6f0c5344fa79ed278ee1f"
+  },
+  "reports/qat/completion-audit.json": {
+    "source": "research/delta-sft-qat-board-20261029/completion-audit.json",
+    "source_sha256": "e85fe1fb190abd8b17f598bda3971531eb615f9a331d942567fd54e590e3e64f",
+    "modified": false,
+    "packaged_sha256": "e85fe1fb190abd8b17f598bda3971531eb615f9a331d942567fd54e590e3e64f"
+  },
+  "reports/qat/calibration.json": {
+    "source": "research/delta-sft-qat-board-20261029/calibration.json",
+    "source_sha256": "26d9ce08560c3f6a29463d0768689a15bec98f2cc8532722ff653c71197ad679",
+    "modified": false,
+    "packaged_sha256": "26d9ce08560c3f6a29463d0768689a15bec98f2cc8532722ff653c71197ad679"
+  },
+  "reports/qat/board-report.json": {
+    "source": "research/delta-sft-qat-board-20261029/board-report.json",
+    "source_sha256": "16db41bb2919ed2dc079e2da19a467e8133bdb0c59a0719393fabf6ad0ef262a",
+    "modified": false,
+    "packaged_sha256": "16db41bb2919ed2dc079e2da19a467e8133bdb0c59a0719393fabf6ad0ef262a"
+  },
+  "reports/qat/native-feeds-report.json": {
+    "source": "research/delta-sft-qat-board-20261029/native-feeds-report.json",
+    "source_sha256": "e8e6c84f0dfa979494cb5e2ff60f0a7861c9d96b1cd73b4ed8a3e98eb722dc12",
+    "modified": false,
+    "packaged_sha256": "e8e6c84f0dfa979494cb5e2ff60f0a7861c9d96b1cd73b4ed8a3e98eb722dc12"
+  },
+  "reports/qat/report.json": {
+    "source": "research/delta-sft-qat-board-20261029/report.json",
+    "source_sha256": "746514956f1beb23eba033bc5be3c01f84f279fb60f2261e9d297dccc16ca897",
+    "modified": false,
+    "packaged_sha256": "746514956f1beb23eba033bc5be3c01f84f279fb60f2261e9d297dccc16ca897"
+  },
+  "reports/qat/qat-qdq/interface-check.json": {
+    "source": "research/delta-sft-qat-board-20261029/qat-qdq/interface-check.json",
+    "source_sha256": "da83a5e953e6f7dd0b6ecd04aa9e57273b637f6cfd856fbe9226b29f22838b63",
+    "modified": false,
+    "packaged_sha256": "da83a5e953e6f7dd0b6ecd04aa9e57273b637f6cfd856fbe9226b29f22838b63"
+  },
+  "reports/qat/qat-qdq/report.json": {
+    "source": "research/delta-sft-qat-board-20261029/qat-qdq/report.json",
+    "source_sha256": "4caf7f2c303e2eb8911f657d92f6698d1be036be562770e2b00f15ec58ce449d",
+    "modified": false,
+    "packaged_sha256": "4caf7f2c303e2eb8911f657d92f6698d1be036be562770e2b00f15ec58ce449d"
+  },
+  "reports/compatibility/report.json": {
+    "source": "research/qat-toolchain-match-20261029/report.json",
+    "source_sha256": "4e4b9844e062b49f380146e790ba5a2853ef630be82aa259346c610a4b9b1bec",
+    "modified": false,
+    "packaged_sha256": "4e4b9844e062b49f380146e790ba5a2853ef630be82aa259346c610a4b9b1bec"
+  },
+  "reports/compatibility/local-errors.json": {
+    "source": "research/qat-toolchain-match-20261029/local-errors.json",
+    "source_sha256": "b1a8cdd50172581f473bc8aff84d5f2947cb8f705d0c1a2f9e362672f1667722",
+    "modified": false,
+    "packaged_sha256": "b1a8cdd50172581f473bc8aff84d5f2947cb8f705d0c1a2f9e362672f1667722"
+  },
+  "reports/compatibility/micro-report.json": {
+    "source": "research/qat-toolchain-match-20261029/micro-report.json",
+    "source_sha256": "48492b7f10add1f2ac806ec3a705406a2d938477ca800f1db42629ac6cde871f",
+    "modified": false,
+    "packaged_sha256": "48492b7f10add1f2ac806ec3a705406a2d938477ca800f1db42629ac6cde871f"
+  },
+  "reports/compatibility/trace-report.json": {
+    "source": "research/qat-toolchain-match-20261029/trace-report.json",
+    "source_sha256": "dedceaef1769daf8d0027d214f08b652ab4b2f0d868787c7ce465666e8bb1b9d",
+    "modified": false,
+    "packaged_sha256": "dedceaef1769daf8d0027d214f08b652ab4b2f0d868787c7ce465666e8bb1b9d"
+  },
+  "reports/compatibility/layout-conv/manifest.json": {
+    "source": "research/qat-toolchain-match-20261029/layout-conv/manifest.json",
+    "source_sha256": "4462db347da6f740ffe0ae5ed4dee50b25a37ea38012c767f29e3b6a0d92d5e4",
+    "modified": false,
+    "packaged_sha256": "4462db347da6f740ffe0ae5ed4dee50b25a37ea38012c767f29e3b6a0d92d5e4"
+  },
+  "reports/compatibility/layout-conv/build.json": {
+    "source": "research/qat-toolchain-match-20261029/layout-conv/build.json",
+    "source_sha256": "66108ce2a9f9b2e4980ec17f8858445321af8cc75576e4110109a94d542c0b41",
+    "modified": false,
+    "packaged_sha256": "66108ce2a9f9b2e4980ec17f8858445321af8cc75576e4110109a94d542c0b41"
+  },
+  "reports/compatibility/board-closed-layout-conv/metrics.json": {
+    "source": "research/qat-toolchain-match-20261029/board-closed-layout-conv/metrics.json",
+    "source_sha256": "ef4280e9775e819da7e153c2dc755c0a5810b9e6a68092acf9f36ed52ae0cf47",
+    "modified": false,
+    "packaged_sha256": "ef4280e9775e819da7e153c2dc755c0a5810b9e6a68092acf9f36ed52ae0cf47"
+  },
+  "reports/compatibility/chat-deployment/deployment.json": {
+    "source": "research/qat-toolchain-match-20261029/chat-deployment/deployment.json",
+    "source_sha256": "855874eb2de26bd91c090047b81786be1f36edcc46d086d26f1d1c0e89ce8e2f",
+    "modified": false,
+    "packaged_sha256": "855874eb2de26bd91c090047b81786be1f36edcc46d086d26f1d1c0e89ce8e2f"
+  },
+  "reports/compatibility/chat-deployment/verification.json": {
+    "source": "research/qat-toolchain-match-20261029/chat-deployment/verification.json",
+    "source_sha256": "5313a45b4b286bd6a2e83ebc57777bc2504f5eb46a26c132771be2e669217abe",
+    "modified": false,
+    "packaged_sha256": "5313a45b4b286bd6a2e83ebc57777bc2504f5eb46a26c132771be2e669217abe"
+  },
+  "reports/compatibility/chat-deployment/final-health.json": {
+    "source": "research/qat-toolchain-match-20261029/chat-deployment/final-health.json",
+    "source_sha256": "2721eb47a80c6516aa1f07028a72f40438d021b9c5c95bdaedf9205da9c66cd0",
+    "modified": false,
+    "packaged_sha256": "2721eb47a80c6516aa1f07028a72f40438d021b9c5c95bdaedf9205da9c66cd0"
+  },
+  "export/prepare_deploy.py": {
+    "source": "research/delta-sft-qat-board-20261029/prepare_deploy.py",
+    "source_sha256": "85379117ce874c44142390a4cbac907d477adcc9eb992a546a9b6476919d9dc2",
+    "modified": true,
+    "packaged_sha256": "487d037871d5daf93f84fb6de5e320c7acac1988664f6dd3c8d179c7926b9600"
+  },
+  "export/fix_and_verify_io.py": {
+    "source": "research/delta-sft-qat-board-20261029/fix_and_verify_io.py",
+    "source_sha256": "ddd5f809199926198ae4eab5c465ac1bc16e8fab2159394e98d996e1ae7304d3",
+    "modified": true,
+    "packaged_sha256": "14f14e61a4777b78596a522f4592d91279e1cce4abc1d2279e02fd28369dd2cf"
+  },
+  "export/build_rknn.py": {
+    "source": "research/delta-sft-qat-board-20261029/build_rknn.py",
+    "source_sha256": "bd435e4152218f15c860efe4a258bc58bde244318b54dd38bf9eb16c1dd8edd0",
+    "modified": false,
+    "packaged_sha256": "bd435e4152218f15c860efe4a258bc58bde244318b54dd38bf9eb16c1dd8edd0"
+  },
+  "export/support/prepare_probe.py": {
+    "source": "research/deltanet-npu-20261028/prepare_probe.py",
+    "source_sha256": "68640bbcaf1a8a8e2f05cc724fc484815d04da4675e55d5c64c5e0b7bc714e89",
+    "modified": true,
+    "packaged_sha256": "25891a4e055de3e2bf829eefb556c443b850d99c3c9d80fb692ed7129c7882ef"
+  },
+  "export/support/qdq_layer.py": {
+    "source": "research/deltanet-qat-board-20261028/qdq_layer.py",
+    "source_sha256": "e69376a38dc4efe4f0797cca0410e28ae8c1126ac5075b0443e95987ca6b203a",
+    "modified": false,
+    "packaged_sha256": "e69376a38dc4efe4f0797cca0410e28ae8c1126ac5075b0443e95987ca6b203a"
+  },
+  "export/support/unsigned_activations.py": {
+    "source": "research/deltanet-qat-board-20261028/unsigned_activations.py",
+    "source_sha256": "dcee38607d1696f2381cf7ac167e136f567f34f08970a1b81c95f05404fabf4d",
+    "modified": false,
+    "packaged_sha256": "dcee38607d1696f2381cf7ac167e136f567f34f08970a1b81c95f05404fabf4d"
+  },
+  "export/support/quant_outputs.py": {
+    "source": "research/delta-quant-fix-20261028/quant_outputs.py",
+    "source_sha256": "7f8e41a848309bdd4f580dd31e794cb76b3aad2426d3eacbee3da90e01d295ec",
+    "modified": false,
+    "packaged_sha256": "7f8e41a848309bdd4f580dd31e794cb76b3aad2426d3eacbee3da90e01d295ec"
+  },
+  "tests/historical/runner.cpp": {
+    "source": "research/qat-toolchain-match-20261029/runner.cpp",
+    "source_sha256": "fe7f6452c95059dd3735b65efcfc0a8a4caf0be807dfa563b5a1767f372e0901",
+    "modified": false,
+    "packaged_sha256": "fe7f6452c95059dd3735b65efcfc0a8a4caf0be807dfa563b5a1767f372e0901"
+  },
+  "tests/historical/prepare_saturating_conv.py": {
+    "source": "research/qat-toolchain-match-20261029/prepare_saturating_conv.py",
+    "source_sha256": "891b6311f0aea44d1aff6bc60414974bb5a9c294a9d2d1d92d0731b871b7f6ae",
+    "modified": false,
+    "packaged_sha256": "891b6311f0aea44d1aff6bc60414974bb5a9c294a9d2d1d92d0731b871b7f6ae"
+  },
+  "tests/historical/reshape_vectors.py": {
+    "source": "research/qat-toolchain-match-20261029/reshape_vectors.py",
+    "source_sha256": "989988cba688a0a95b2ddf145aa3f336c4fb42d8ad7eccef212aeebc689264ca",
+    "modified": false,
+    "packaged_sha256": "989988cba688a0a95b2ddf145aa3f336c4fb42d8ad7eccef212aeebc689264ca"
+  },
+  "tests/historical/prepare_broadcast.py": {
+    "source": "research/qat-toolchain-match-20261029/prepare_broadcast.py",
+    "source_sha256": "3d73e96ada6a919e98eefd9e6d74330ee47a03e011ae567ec89e66cffc0f3270",
+    "modified": false,
+    "packaged_sha256": "3d73e96ada6a919e98eefd9e6d74330ee47a03e011ae567ec89e66cffc0f3270"
+  },
+  "tests/historical/prepare_micro.py": {
+    "source": "research/qat-toolchain-match-20261029/prepare_micro.py",
+    "source_sha256": "69698e123cb7f6f8b392daaaf8de2ed131def9150dd79920584a13414dd14e90",
+    "modified": false,
+    "packaged_sha256": "69698e123cb7f6f8b392daaaf8de2ed131def9150dd79920584a13414dd14e90"
+  },
+  "tests/historical/analyze_micro.py": {
+    "source": "research/qat-toolchain-match-20261029/analyze_micro.py",
+    "source_sha256": "959566cfcababde36eec0bfbafe1ddf70cec95e863810d805add5a62dc1a1551",
+    "modified": false,
+    "packaged_sha256": "959566cfcababde36eec0bfbafe1ddf70cec95e863810d805add5a62dc1a1551"
+  },
+  "tests/historical/analyze_trace.py": {
+    "source": "research/qat-toolchain-match-20261029/analyze_trace.py",
+    "source_sha256": "29bad38656e61eebfec31f87ae909d5ed75a04245f0fcf04a28a708cf1bbc5af",
+    "modified": false,
+    "packaged_sha256": "29bad38656e61eebfec31f87ae909d5ed75a04245f0fcf04a28a708cf1bbc5af"
+  },
+  "tests/historical/local_errors.py": {
+    "source": "research/qat-toolchain-match-20261029/local_errors.py",
+    "source_sha256": "f88d402cce41722e1d1a31a1dd13e56c72ed9ec5f182b38efc3817c40ae41cfe",
+    "modified": false,
+    "packaged_sha256": "f88d402cce41722e1d1a31a1dd13e56c72ed9ec5f182b38efc3817c40ae41cfe"
+  },
+  "tests/historical/summarize.py": {
+    "source": "research/qat-toolchain-match-20261029/summarize.py",
+    "source_sha256": "6165800395b738bf06e41b5d956fffa8e07d2dc2c79ca558f88addb4128ef3a8",
+    "modified": false,
+    "packaged_sha256": "6165800395b738bf06e41b5d956fffa8e07d2dc2c79ca558f88addb4128ef3a8"
+  },
+  "tests/historical/board.ps1": {
+    "source": "research/qat-toolchain-match-20261029/board.ps1",
+    "source_sha256": "51b02e604c7abba908aa4d96a0cec24e6f954f939c072ed1dd72e15879b04fb4",
+    "modified": false,
+    "packaged_sha256": "51b02e604c7abba908aa4d96a0cec24e6f954f939c072ed1dd72e15879b04fb4"
+  },
+  "tests/historical/bench.ps1": {
+    "source": "research/qat-toolchain-match-20261029/bench.ps1",
+    "source_sha256": "6f8a0d22934e3ca6016f47beca2ae9af9227cbdbe73fc4c4a369af9911764293",
+    "modified": false,
+    "packaged_sha256": "6f8a0d22934e3ca6016f47beca2ae9af9227cbdbe73fc4c4a369af9911764293"
+  },
+  "tests/historical/build.py": {
+    "source": "research/qat-toolchain-match-20261029/build.py",
+    "source_sha256": "61d18bcd240816ea7c1b64e0ecf8bcb6140818ffdda463a78e4ba770052599ef",
+    "modified": false,
+    "packaged_sha256": "61d18bcd240816ea7c1b64e0ecf8bcb6140818ffdda463a78e4ba770052599ef"
+  },
+  "tests/historical/closed_reference.py": {
+    "source": "research/qat-toolchain-match-20261029/closed_reference.py",
+    "source_sha256": "53ca135b91354210d2a44a586c2f3f2968c2fc655e979b143241d0d5ae22feec",
+    "modified": false,
+    "packaged_sha256": "53ca135b91354210d2a44a586c2f3f2968c2fc655e979b143241d0d5ae22feec"
+  },
+  "tests/historical/board_test.ps1": {
+    "source": "research/delta-sft-qat-board-20261029/board_test.ps1",
+    "source_sha256": "ed41a831c47ba1850bf61152a13e3e023aadfb005207c44d5901ed12dee57520",
+    "modified": false,
+    "packaged_sha256": "ed41a831c47ba1850bf61152a13e3e023aadfb005207c44d5901ed12dee57520"
+  },
+  "tests/historical/analyze_board.py": {
+    "source": "research/delta-sft-qat-board-20261029/analyze_board.py",
+    "source_sha256": "ecb71163dc728a801b3e28a992026857d509f5bbd133a76196270c28619afaf0",
+    "modified": false,
+    "packaged_sha256": "ecb71163dc728a801b3e28a992026857d509f5bbd133a76196270c28619afaf0"
+  },
+  "tests/historical/analyze_native_feeds.py": {
+    "source": "research/delta-sft-qat-board-20261029/analyze_native_feeds.py",
+    "source_sha256": "f777f28f68b819f455f822ef4b3a3cc085dfe211dff0f09c224cdb72922548f6",
+    "modified": false,
+    "packaged_sha256": "f777f28f68b819f455f822ef4b3a3cc085dfe211dff0f09c224cdb72922548f6"
+  },
+  "tests/board/dump.cpp": {
+    "source": "research/delta-quant-fix-20261028/dump.cpp",
+    "source_sha256": "81d6b439969260539d017e631bf98213d9f5623928895784069ac87778e29ff1",
+    "modified": false,
+    "packaged_sha256": "81d6b439969260539d017e631bf98213d9f5623928895784069ac87778e29ff1"
+  },
+  "tests/board/runner.cpp": {
+    "source": "research/qat-toolchain-match-20261029/runner.cpp",
+    "source_sha256": "fe7f6452c95059dd3735b65efcfc0a8a4caf0be807dfa563b5a1767f372e0901",
+    "modified": false,
+    "packaged_sha256": "fe7f6452c95059dd3735b65efcfc0a8a4caf0be807dfa563b5a1767f372e0901"
+  },
+  "runtime/pico-chat/deployment.json": {
+    "source": "pico-chat/deployment.json",
+    "source_sha256": "855874eb2de26bd91c090047b81786be1f36edcc46d086d26f1d1c0e89ce8e2f",
+    "modified": false,
+    "packaged_sha256": "855874eb2de26bd91c090047b81786be1f36edcc46d086d26f1d1c0e89ce8e2f"
+  },
+  "runtime/pico-chat/model.json": {
+    "source": "pico-chat/model.json",
+    "source_sha256": "cae121848a857f78a2540fe9a72c058282baff7d36824bd86863e48968f40e31",
+    "modified": false,
+    "packaged_sha256": "cae121848a857f78a2540fe9a72c058282baff7d36824bd86863e48968f40e31"
+  },
+  "runtime/pico-chat/requirements.lock.txt": {
+    "source": "pico-chat/requirements.lock.txt",
+    "source_sha256": "ec35ef2b50166f139f22bc184cc441da81d25d3a604d15185345c51378619c8f",
+    "modified": false,
+    "packaged_sha256": "ec35ef2b50166f139f22bc184cc441da81d25d3a604d15185345c51378619c8f"
+  },
+  "runtime/pico-chat/server.py": {
+    "source": "pico-chat/server.py",
+    "source_sha256": "30ec674c5590f31bf24dc5038c0f65f160e3b901f1cf8f53e39280966c340126",
+    "modified": false,
+    "packaged_sha256": "30ec674c5590f31bf24dc5038c0f65f160e3b901f1cf8f53e39280966c340126"
+  },
+  "runtime/pico-chat/start.ps1": {
+    "source": "pico-chat/start.ps1",
+    "source_sha256": "6d9be174efc1aba0454733510b029f131414fa3e28b6be8567d4b796f087ec65",
+    "modified": false,
+    "packaged_sha256": "6d9be174efc1aba0454733510b029f131414fa3e28b6be8567d4b796f087ec65"
+  },
+  "runtime/pico-chat/stop.ps1": {
+    "source": "pico-chat/stop.ps1",
+    "source_sha256": "6ccfd4cf39192269f6c004d550bec240b6fee34a6e262a5c58d58038b9172eec",
+    "modified": false,
+    "packaged_sha256": "6ccfd4cf39192269f6c004d550bec240b6fee34a6e262a5c58d58038b9172eec"
+  },
+  "runtime/pico-chat/template-golden.json": {
+    "source": "pico-chat/template-golden.json",
+    "source_sha256": "2500272bf1a545a229d714596a2642a16e149043a1d5ca9cabc06a35466cc820",
+    "modified": false,
+    "packaged_sha256": "2500272bf1a545a229d714596a2642a16e149043a1d5ca9cabc06a35466cc820"
+  },
+  "runtime/pico-chat/tokenizer.json": {
+    "source": "pico-chat/tokenizer.json",
+    "source_sha256": "71f32c68cf63a15355a8fc171b7594b3d41870fe0ddb54fc6aefa55f73a4a668",
+    "modified": false,
+    "packaged_sha256": "71f32c68cf63a15355a8fc171b7594b3d41870fe0ddb54fc6aefa55f73a4a668"
+  },
+  "runtime/pico-chat/verify.py": {
+    "source": "pico-chat/verify.py",
+    "source_sha256": "ba6b34c0206cbda5193b1176b4447daf73e52453c51419f30ba1d2d278036f65",
+    "modified": false,
+    "packaged_sha256": "ba6b34c0206cbda5193b1176b4447daf73e52453c51419f30ba1d2d278036f65"
+  },
+  "runtime/pico-chat/verify_lan.py": {
+    "source": "pico-chat/verify_lan.py",
+    "source_sha256": "2a46ada3d1e15e11843ac0cd406cafc6be9967366805514fe9773ef2125d4bd3",
+    "modified": true,
+    "packaged_sha256": "87b7e8ad717d26219886c01dabaa596283da2ff5aba7a4d8360e69215ac8a366"
+  },
+  "runtime/pico-chat/board/build.sh": {
+    "source": "pico-chat/board/build.sh",
+    "source_sha256": "8fddbf28156b7ce0f8b5bf967907c89b3f5016a9d5ef0858a47d5f73e4dcd80d",
+    "modified": false,
+    "packaged_sha256": "8fddbf28156b7ce0f8b5bf967907c89b3f5016a9d5ef0858a47d5f73e4dcd80d"
+  },
+  "runtime/pico-chat/board/chatd.cpp": {
+    "source": "pico-chat/board/chatd.cpp",
+    "source_sha256": "0c42635bbb2d541e13b974ceadfdcdc21da569f0fc494fcc7b8c3b13a04f5f92",
+    "modified": false,
+    "packaged_sha256": "0c42635bbb2d541e13b974ceadfdcdc21da569f0fc494fcc7b8c3b13a04f5f92"
+  },
+  "runtime/pico-chat/board/delta_core.h": {
+    "source": "pico-chat/board/delta_core.h",
+    "source_sha256": "c9339c22176bf666327bebc631821a0fdacc92f35b47c61d12580350cae7c296",
+    "modified": false,
+    "packaged_sha256": "c9339c22176bf666327bebc631821a0fdacc92f35b47c61d12580350cae7c296"
+  },
+  "runtime/pico-chat/board/delta_register.h": {
+    "source": "pico-chat/board/delta_register.h",
+    "source_sha256": "b19b9d32c00e7c97eef283bfe0cf8d9332a36a648b6aeb96a195784fb5941243",
+    "modified": false,
+    "packaged_sha256": "b19b9d32c00e7c97eef283bfe0cf8d9332a36a648b6aeb96a195784fb5941243"
+  },
+  "runtime/pico-chat/board/engram_config.h": {
+    "source": "pico-chat/board/engram_config.h",
+    "source_sha256": "8fb16e2b68bec172a2a1bcd5e1977bcf9e29dfebcea10159c1af1c9e47e9582a",
+    "modified": false,
+    "packaged_sha256": "8fb16e2b68bec172a2a1bcd5e1977bcf9e29dfebcea10159c1af1c9e47e9582a"
+  },
+  "runtime/pico-chat/board/init-wrapper": {
+    "source": "pico-chat/board/init-wrapper",
+    "source_sha256": "10174824bae877e7c41dc8079158ba21453314e500c0e1fff78305fcc243c987",
+    "modified": false,
+    "packaged_sha256": "10174824bae877e7c41dc8079158ba21453314e500c0e1fff78305fcc243c987"
+  },
+  "runtime/pico-chat/board/rknn_api.h": {
+    "source": "pico-chat/board/rknn_api.h",
+    "source_sha256": "5dd298529d6b2e43dec0deba824c90472c289e9a13c4ef598658bdb9c7273cb2",
+    "modified": false,
+    "packaged_sha256": "5dd298529d6b2e43dec0deba824c90472c289e9a13c4ef598658bdb9c7273cb2"
+  },
+  "runtime/pico-chat/board/S98picochat": {
+    "source": "pico-chat/board/S98picochat",
+    "source_sha256": "524bb0139e3047ad62614ced42675d8d85e8dba4560f3718832564d5abb6d0fc",
+    "modified": false,
+    "packaged_sha256": "524bb0139e3047ad62614ced42675d8d85e8dba4560f3718832564d5abb6d0fc"
+  },
+  "runtime/pico-chat/dist/app.js": {
+    "source": "pico-chat/dist/app.js",
+    "source_sha256": "69a8b2f579e6dcae625fc5dd22ec77c963b029fe06bd28e00d483a3fca10e813",
+    "modified": false,
+    "packaged_sha256": "69a8b2f579e6dcae625fc5dd22ec77c963b029fe06bd28e00d483a3fca10e813"
+  },
+  "runtime/pico-chat/dist/index.html": {
+    "source": "pico-chat/dist/index.html",
+    "source_sha256": "61b8dee9068a0bf33066aef18d921b81c102dbab71e4ecb6e7c024090d4f1932",
+    "modified": false,
+    "packaged_sha256": "61b8dee9068a0bf33066aef18d921b81c102dbab71e4ecb6e7c024090d4f1932"
+  },
+  "runtime/pico-chat/dist/style.css": {
+    "source": "pico-chat/dist/style.css",
+    "source_sha256": "a732655347281136fa89fd1167dc865a9ff16b1f1e2dd58ebadbd47d63e8be60",
+    "modified": false,
+    "packaged_sha256": "a732655347281136fa89fd1167dc865a9ff16b1f1e2dd58ebadbd47d63e8be60"
+  },
+  "runtime/pico-chat/board/librknnmrt.so": {
+    "source": "pico-chat/board/librknnmrt.so",
+    "source_sha256": "d6259f5f8537acc15b0c3686010109bf4182e654281aad180a44bfd73ce929cc",
+    "modified": false,
+    "packaged_sha256": "d6259f5f8537acc15b0c3686010109bf4182e654281aad180a44bfd73ce929cc"
+  },
+  "runtime/pico-chat/board/pico-chatd": {
+    "source": "pico-chat/board/pico-chatd",
+    "source_sha256": "e82148dcceb0e745def9eea67b0e310087d31732acba0bafd22bcead3c12e937",
+    "modified": false,
+    "packaged_sha256": "e82148dcceb0e745def9eea67b0e310087d31732acba0bafd22bcead3c12e937"
+  },
+  "tests/board/bench.cpp": {
+    "source": "research/deltanet-npu-20261028/bench.cpp",
+    "source_sha256": "3b425af96bc095b7f8cf604b6d5d867f74d628b978b46e7bb1c525cd50bc909c",
+    "modified": false,
+    "packaged_sha256": "3b425af96bc095b7f8cf604b6d5d867f74d628b978b46e7bb1c525cd50bc909c"
+  },
+  "tests/board/run_board.sh": {
+    "source": "research/deltanet-npu-20261028/run_board.sh",
+    "source_sha256": "d999af54ad14b32efc728f4880cfd664c61e6a7c6490c6b082a57710bf4e56b9",
+    "modified": false,
+    "packaged_sha256": "d999af54ad14b32efc728f4880cfd664c61e6a7c6490c6b082a57710bf4e56b9"
+  }
+}

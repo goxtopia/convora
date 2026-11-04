@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "updates": 4,
+  "epoch_cursor": 1024,
+  "tokens_seen": 26359,
+  "model_max_difference": 0.0,
+  "optimizer_max_difference": 0.0,
+  "rng_equal": true,
+  "new_sft_optimizer": true,
+  "parent_sha256": "0fc4252d0245a516a76dca6e23395c1609b85800844bc1b753ea9a1be5d9d6d6"
+}

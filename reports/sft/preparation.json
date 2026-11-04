@@ -1,0 +1,15 @@
+{
+  "parent": "/workspace/tcnengram/training-runs/delta-fp-pretrain-1epoch-fast-20261029/pretrain/last.pt",
+  "parent_sha256": "0fc4252d0245a516a76dca6e23395c1609b85800844bc1b753ea9a1be5d9d6d6",
+  "baseline": "/workspace/tcnengram/training-runs/sawtooth8-lccc-sft/mixed-sft/last.pt",
+  "baseline_sha256": "3720565dc4f08f9c5a2da11a729b212adbe50ba83d451c1b2c4d5de4bede68f6",
+  "epochs": 2,
+  "windows_per_epoch": 15868671,
+  "targets_per_epoch": 378138028,
+  "expected_updates": 123974,
+  "expected_targets": 756276056,
+  "source_files": 106,
+  "no_web_added": true,
+  "no_qat": true,
+  "created_utc": "2026-10-29T03:08:40.871227+00:00"
+}

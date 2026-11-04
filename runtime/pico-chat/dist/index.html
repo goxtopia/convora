@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f6f2">
+  <title>Convora · 卷语</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="Convora 首页"><span class="chip-logo" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>CONV<span class="brand-light">ORA</span></span><span class="experimental">实验版</span></a>
+      <div class="top-actions"><span id="connection" class="connection checking" role="status"><span class="status-dot"></span><span id="connection-label">连接中</span></span><button id="clear" class="clear-button" title="清空对话" aria-label="清空对话"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13M10 11v5M14 11v5"/></svg><span>清空对话</span></button></div>
+    </header>
+    <main id="conversation" aria-label="聊天记录">
+      <section id="welcome" class="welcome">
+        <div class="hero-chip" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+        <p class="eyebrow">RUNNING ON LUCKFOX PICO</p>
+        <h1>小芯片，<br>聊两句。</h1>
+        <p class="intro">一颗掌心里的芯片，一场实时发生的对话。<br>输入一句话，看看它会怎样回答。</p>
+        <div class="suggestions" aria-label="试试这些问题"><button data-prompt="你好，陪我聊两句吧。">打个招呼 <span>↗</span></button><button data-prompt="今天有点累，给我一个简单建议。">聊聊今天 <span>↗</span></button><button data-prompt="用一句话介绍你自己。">认识一下 <span>↗</span></button></div>
+      </section>
+      <div id="messages" class="messages" aria-live="polite" aria-relevant="additions"></div>
+    </main>
+    <div class="composer-dock">
+      <p id="queue-label" class="queue-label" role="status">多人共享一颗 NPU · 自动排队 · 对话独立</p>
+      <div id="notice" class="notice" role="status" hidden></div>
+      <form id="chat-form" class="composer">
+        <label class="sr-only" for="input">输入消息</label><textarea id="input" rows="1" maxlength="4000" placeholder="输入消息，和卷语聊聊…" autocomplete="off"></textarea>
+        <div class="composer-bottom"><label class="length-label" for="length">回答长度 <select id="length"><option value="32">简短</option><option value="80" selected>标准</option><option value="160">较长</option></select></label><button id="send" class="send-button" type="submit" aria-label="发送消息"><span id="send-label">发送</span><svg id="send-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 18V6M6 12l6-6 6 6"/></svg><span id="stop-icon" class="stop-icon" hidden></span></button></div>
+      </form>
+      <div class="composer-foot"><span><span class="mini-dot"></span>板端实时生成 · 支持连续对话</span><span>Enter 发送 · Shift + Enter 换行</span></div>
+      <p id="model-note" class="model-note">QAT兼容修复版：260步诊断 logits 误差4.40%、状态误差14.48%，回答仍可能跑题或重复。</p>
+    </div>
+    <footer class="page-footer"><span>RV1103 <span class="footer-cross">×</span> TCN + ENGRAM</span><span><span id="model-label">TCN + ENGRAM + DELTA 4×32 · QAT 兼容修复版</span></span></footer>
+    <div id="toast" class="toast" role="status" hidden></div>
+  </div>
+</body>
+</html>

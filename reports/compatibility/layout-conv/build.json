@@ -1,0 +1,7 @@
+{
+  "onnx_sha256": "0dd4bf93a825a87c90914f3135626aab6de5b3655090de9c2b2c1215861ecf94",
+  "rknn_sha256": "6942f512bbc74c4d1ddd309fbd8cc580d959520d772c56c6098e0e38d8291175",
+  "toolkit": "1.6.0+81f21f4d",
+  "do_quantization": false,
+  "optimization_level": 0
+}

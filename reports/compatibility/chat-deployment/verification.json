@@ -1,0 +1,392 @@
+{
+  "scheduler_fifo_capacity_and_cancel": true,
+  "lan_health": {
+    "online": true,
+    "board": {
+      "ready": true,
+      "model": "delta4x32-lccc-sft-qat-compatible-20261029",
+      "rknn_sha256": "6942f512bbc74c4d1ddd309fbd8cc580d959520d772c56c6098e0e38d8291175",
+      "checkpoint_sha256": "9db7a2fa06b2687bfaa8091b9814bbf6ce52c7aba64d45bd66af933a902adef5",
+      "pid": 1192,
+      "model_loads": 1,
+      "context_tokens": 512,
+      "requests": 0,
+      "cache_resets": 0,
+      "rss_kib": 10176,
+      "dma_kib": 4560
+    },
+    "queue": {
+      "busy": false,
+      "waiting": 0,
+      "capacity": 12
+    },
+    "model": {
+      "model": "delta4x32-lccc-sft-qat-compatible-20261029",
+      "checkpoint_sha256": "9db7a2fa06b2687bfaa8091b9814bbf6ce52c7aba64d45bd66af933a902adef5",
+      "rknn_sha256": "6942f512bbc74c4d1ddd309fbd8cc580d959520d772c56c6098e0e38d8291175",
+      "context_tokens": 512,
+      "label": "TCN + Engram + Delta 4×32 · QAT 兼容修复版",
+      "note": "QAT兼容修复版：260步诊断 logits 误差4.40%、状态误差14.48%，回答仍可能跑题或重复。",
+      "board_model_directory": "/mnt/sdcard/pico-models/delta-sft-qat-compatible-20261029"
+    },
+    "web_pid": 33536,
+    "listen_host": "0.0.0.0"
+  },
+  "lan_same_origin_and_cross_origin_rejection": true,
+  "multi_turn_matches_training_encoder": true,
+  "resident_matches_independent_board_benchmark": [
+    {
+      "prefix_tokens": 1,
+      "first_token": 273
+    },
+    {
+      "prefix_tokens": 32,
+      "first_token": 388
+    },
+    {
+      "prefix_tokens": 133,
+      "first_token": 3761
+    },
+    {
+      "prefix_tokens": 260,
+      "first_token": 1758
+    }
+  ],
+  "health_stays_online_during_generation": true,
+  "concurrent_clients": {
+    "long_request": [
+      [
+        "meta",
+        {
+          "input_tokens": 512,
+          "retained_messages": 1,
+          "dropped_messages": 0,
+          "truncated": true,
+          "model": "delta4x32-lccc-sft-qat-compatible-20261029",
+          "context_tokens": 512
+        },
+        4.650000482797623e-05
+      ],
+      [
+        "start",
+        {
+          "queue_ms": 1.1111999629065394
+        },
+        5.809997674077749e-05
+      ],
+      [
+        "delta",
+        {
+          "text": "是",
+          "tokens": 1
+        },
+        1.7781645000213757
+      ],
+      [
+        "delta",
+        {
+          "text": "是的",
+          "tokens": 2
+        },
+        1.781498400028795
+      ],
+      [
+        "delta",
+        {
+          "text": "是的，",
+          "tokens": 3
+        },
+        1.7865837999852374
+      ],
+      [
+        "delta",
+        {
+          "text": "是的，这",
+          "tokens": 4
+        },
+        1.7886984000215307
+      ],
+      [
+        "delta",
+        {
+          "text": "是的，这条",
+          "tokens": 5
+        },
+        1.7939834999851882
+      ],
+      [
+        "delta",
+        {
+          "text": "是的，这条路",
+          "tokens": 6
+        },
+        1.796395199955441
+      ],
+      [
+        "delta",
+        {
+          "text": "是的，这条路是",
+          "tokens": 7
+        },
+        1.79934109991882
+      ],
+      [
+        "delta",
+        {
+          "text": "是的，这条路是多",
+          "tokens": 8
+        },
+        1.8020506999455392
+      ],
+      [
+        "delta",
+        {
+          "text": "是的，这条路是多人",
+          "tokens": 9
+        },
+        1.806360699934885
+      ],
+      [
+        "delta",
+        {
+          "text": "是的，这条路是多人排",
+          "tokens": 10
+        },
+        1.8130833000177518
+      ],
+      [
+        "delta",
+        {
+          "text": "是的，这条路是多人排队",
+          "tokens": 11
+        },
+        1.814601399935782
+      ],
+      [
+        "delta",
+        {
+          "text": "是的，这条路是多人排队验证",
+          "tokens": 12
+        },
+        1.8201191999251023
+      ],
+      [
+        "delta",
+        {
+          "text": "是的，这条路是多人排队验证消息",
+          "tokens": 13
+        },
+        1.8263153999578208
+      ],
+      [
+        "delta",
+        {
+          "text": "是的，这条路是多人排队验证消息。",
+          "tokens": 14
+        },
+        1.8286170000210404
+      ],
+      [
+        "done",
+        {
+          "output_tokens": 15,
+          "decode_calls": 14,
+          "prefill_ms": 1763.96,
+          "decode_ms": 60.8026,
+          "tokens_per_second": 230.253,
+          "eos": true,
+          "cancelled": false,
+          "text": "是的，这条路是多人排队验证消息。",
+          "first_token_ms": 1779.1917999275029,
+          "queue_ms": 1.1111999629065394,
+          "total_ms": 1836.0077999532223
+        },
+        1.8349602000089362
+      ]
+    ],
+    "queued_request": [
+      [
+        "meta",
+        {
+          "input_tokens": 19,
+          "retained_messages": 1,
+          "dropped_messages": 0,
+          "truncated": false,
+          "model": "delta4x32-lccc-sft-qat-compatible-20261029",
+          "context_tokens": 512
+        },
+        2.719997428357601e-05
+      ],
+      [
+        "queue",
+        {
+          "position": 2
+        },
+        7.82000133767724e-05
+      ],
+      [
+        "queue",
+        {
+          "position": 1
+        },
+        0.5005167999770492
+      ],
+      [
+        "queue",
+        {
+          "position": 1
+        },
+        1.0010645999573171
+      ],
+      [
+        "queue",
+        {
+          "position": 1
+        },
+        1.501411100034602
+      ],
+      [
+        "start",
+        {
+          "queue_ms": 2002.4379000533372
+        },
+        2.002108299988322
+      ],
+      [
+        "delta",
+        {
+          "text": "你好",
+          "tokens": 1
+        },
+        2.1024147999705747
+      ],
+      [
+        "delta",
+        {
+          "text": "你好！",
+          "tokens": 2
+        },
+        2.1065429999725893
+      ],
+      [
+        "delta",
+        {
+          "text": "你好！有什么",
+          "tokens": 3
+        },
+        2.1118718000361696
+      ],
+      [
+        "delta",
+        {
+          "text": "你好！有什么我可以",
+          "tokens": 4
+        },
+        2.1167938000289723
+      ],
+      [
+        "delta",
+        {
+          "text": "你好！有什么我可以帮助",
+          "tokens": 5
+        },
+        2.1197107000043616
+      ],
+      [
+        "delta",
+        {
+          "text": "你好！有什么我可以帮助你的",
+          "tokens": 6
+        },
+        2.123252599965781
+      ],
+      [
+        "delta",
+        {
+          "text": "你好！有什么我可以帮助你的吗",
+          "tokens": 7
+        },
+        2.1279499999945983
+      ],
+      [
+        "delta",
+        {
+          "text": "你好！有什么我可以帮助你的吗？",
+          "tokens": 8
+        },
+        2.132714799954556
+      ],
+      [
+        "done",
+        {
+          "output_tokens": 9,
+          "decode_calls": 8,
+          "prefill_ms": 65.8855,
+          "decode_ms": 35.8654,
+          "tokens_per_second": 223.056,
+          "eos": true,
+          "cancelled": false,
+          "text": "你好！有什么我可以帮助你的吗？",
+          "first_token_ms": 2102.777700056322,
+          "queue_ms": 2002.4379000533372,
+          "total_ms": 2137.818200048059
+        },
+        2.137448300025426
+      ]
+    ],
+    "cancelled_queued_request": [
+      [
+        "meta",
+        {
+          "input_tokens": 19,
+          "retained_messages": 1,
+          "dropped_messages": 0,
+          "truncated": false,
+          "model": "delta4x32-lccc-sft-qat-compatible-20261029",
+          "context_tokens": 512
+        },
+        3.0800001695752144e-05
+      ],
+      [
+        "queue",
+        {
+          "position": 1
+        },
+        3.550003748387098e-05
+      ]
+    ],
+    "native_requests": 2,
+    "one_browser_clear_does_not_interrupt_other": true,
+    "cancelled_queue_never_reached_npu": true,
+    "clean_answer_reproduced_after_other_client": true
+  },
+  "active_cancel_then_clean_generation": true,
+  "invalid_token_rejected": true,
+  "board_before": {
+    "ready": true,
+    "model": "delta4x32-lccc-sft-qat-compatible-20261029",
+    "rknn_sha256": "6942f512bbc74c4d1ddd309fbd8cc580d959520d772c56c6098e0e38d8291175",
+    "checkpoint_sha256": "9db7a2fa06b2687bfaa8091b9814bbf6ce52c7aba64d45bd66af933a902adef5",
+    "pid": 1192,
+    "model_loads": 1,
+    "context_tokens": 512,
+    "requests": 0,
+    "cache_resets": 0,
+    "rss_kib": 10176,
+    "dma_kib": 4560
+  },
+  "board_after": {
+    "ready": true,
+    "model": "delta4x32-lccc-sft-qat-compatible-20261029",
+    "rknn_sha256": "6942f512bbc74c4d1ddd309fbd8cc580d959520d772c56c6098e0e38d8291175",
+    "checkpoint_sha256": "9db7a2fa06b2687bfaa8091b9814bbf6ce52c7aba64d45bd66af933a902adef5",
+    "pid": 1192,
+    "model_loads": 1,
+    "context_tokens": 512,
+    "requests": 10,
+    "cache_resets": 10,
+    "rss_kib": 10216,
+    "dma_kib": 4560
+  },
+  "status": "passed"
+}

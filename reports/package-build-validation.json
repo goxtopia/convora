@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-04 Asia/Shanghai",
+  "scope": "Offline CPU/export/compiler validation only; no GPU training, ADB, NPU or chat requests",
+  "source_subset_files_verified_against_historical_manifests": {
+    "pretrain": 13,
+    "sft": 14,
+    "qat": 16
+  },
+  "environment": {
+    "python": "3.10 WSL existing CPU environment",
+    "torch": "1.13.1+cpu",
+    "numpy": "1.23.5",
+    "onnx": "1.14.1",
+    "onnxruntime": "1.16.0",
+    "rknn_toolkit2": "1.6.0+81f21f4d",
+    "tokenizer_environment": "existing Windows pico-chat venv, tokenizers 0.23.3"
+  },
+  "reexport": {
+    "status": "passed",
+    "calibration_documents": 48,
+    "calibration_samples": 431,
+    "only_train_calibration": true,
+    "fresh_cpu_table_shas_identical": true,
+    "interface": {
+      "status": "passed",
+      "raw_output_type": "UINT8",
+      "initializer_bytes_unchanged_by_output_fix": true,
+      "closed_loop_positions": 260,
+      "software_logits_max_difference": 0.0,
+      "software_state_max_difference": 0.0,
+      "ort_reference_optimization": "DISABLE_ALL to evaluate explicit Q/DQ semantics; default ORT quantized fusion can change rounding",
+      "native_internal_arithmetic_verified": false,
+      "output_affines": [
+        {
+          "scale": 0.3099799156188965,
+          "uint8_zero_point": 88
+        },
+        {
+          "scale": 0.02341112494468689,
+          "uint8_zero_point": 137
+        },
+        {
+          "scale": 0.02225586399435997,
+          "uint8_zero_point": 120
+        },
+        {
+          "scale": 0.0372094064950943,
+          "uint8_zero_point": 122
+        },
+        {
+          "scale": 0.04194719344377518,
+          "uint8_zero_point": 119
+        },
+        {
+          "scale": 0.056116584688425064,
+          "uint8_zero_point": 134
+        },
+        {
+          "scale": 0.09404633194208145,
+          "uint8_zero_point": 125
+        },
+        {
+          "scale": 0.13711848855018616,
+          "uint8_zero_point": 118
+        },
+        {
+          "scale": 0.052299510687589645,
+          "uint8_zero_point": 117
+        },
+        {
+          "scale": 0.04168923571705818,
+          "uint8_zero_point": 129
+        },
+        {
+          "scale": 0.04120168834924698,
+          "uint8_zero_point": 130
+        },
+        {
+          "scale": 0.04827634617686272,
+          "uint8_zero_point": 128
+        }
+      ]
+    },
+    "compatible_onnx_sha256": "0dd4bf93a825a87c90914f3135626aab6de5b3655090de9c2b2c1215861ecf94",
+    "compatible_onnx_byte_identical_to_shipped": true
+  },
+  "rknn_recompile": {
+    "passed": true,
+    "original_sha256": "6942f512bbc74c4d1ddd309fbd8cc580d959520d772c56c6098e0e38d8291175",
+    "rebuilt_sha256": "22594a3f38000bfabb3a862a06d26adfbbb495a666429909a935b69efce575e9",
+    "bytes": 4694317,
+    "different_byte_offsets": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      50,
+      51,
+      52,
+      53,
+      56,
+      57,
+      58,
+      59,
+      60
+    ],
+    "bytes_from_offset_64_identical": true,
+    "header_field_semantics": "not inferred",
+    "rebuilt_model_board_tested": false,
+    "release_uses_original_board_tested_binary": true
+  },
+  "board_program_cross_compile": {
+    "passed": true,
+    "binaries": {
+      "delta-bench": "743f359d2c033bb9504da30edb8012612379b2f1bdaad4338bfdf5bc8ca6e763",
+      "delta-dump": "a8267ddeabdb7d98e21047d744c58f082b58848e8b368e11a33f155fb897268b",
+      "runner": "b1506fb178d63d3946f296f93a2283594149a12e399b475304fc995bacc99803"
+    },
+    "execution_on_board": false
+  },
+  "float_inference_smoke": {
+    "prompt": "你好",
+    "prompt_tokens": 18,
+    "generated_ids": [
+      1968,
+      2
+    ],
+    "tokenizer_golden": true,
+    "note": "Windows original tokenizer produced the prompt; WSL CPU ran the generated token IDs. No text quality claim."
+  }
+}

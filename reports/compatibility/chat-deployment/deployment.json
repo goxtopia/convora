@@ -1,0 +1,139 @@
+{
+  "status": "deployed",
+  "completed_local": "2026-10-29T16:58:49.781497+08:00",
+  "model": "delta4x32-lccc-sft-qat-compatible-20261029",
+  "checkpoint_sha256": "9db7a2fa06b2687bfaa8091b9814bbf6ce52c7aba64d45bd66af933a902adef5",
+  "rknn_sha256": "6942f512bbc74c4d1ddd309fbd8cc580d959520d772c56c6098e0e38d8291175",
+  "context_tokens": 512,
+  "label": "TCN + Engram + Delta 4×32 · QAT 兼容修复版",
+  "note": "QAT兼容修复版：260步诊断 logits 误差4.40%、状态误差14.48%，回答仍可能跑题或重复。",
+  "board_model_directory": "/mnt/sdcard/pico-models/delta-sft-qat-compatible-20261029",
+  "model_directory": "/mnt/sdcard/pico-models/delta-sft-qat-compatible-20261029",
+  "url": "http://192.168.124.2:9110",
+  "local_url": "http://127.0.0.1:9110",
+  "web_bind": "0.0.0.0:9110",
+  "board_bind": "127.0.0.1:8781",
+  "bridge": "ADB18765",
+  "checkpoint_training_unchanged": true,
+  "new_training": false,
+  "quantization_precision_passed": false,
+  "long_memory_task_passed": false,
+  "compatibility_repairs": [
+    "Signed saturating depthwise1x1 projections, Q/K code-equivalent on exhaustive256 input grid, V at most1LSB endpoint difference",
+    "Exact QDQ reshape of scalar-times-wide-vector paths into channel-vector multiplication"
+  ],
+  "closed_loop_metrics": {
+    "vs_fp": {
+      "logits": {
+        "nrmse": 0.0439985888172961,
+        "bias": 0.07093298598135991,
+        "max_abs": 1.7387542724609375,
+        "exact_fraction": 2.403846153846154e-06
+      },
+      "state": {
+        "nrmse": 0.14483369220878503,
+        "bias": 0.0008235466586334176,
+        "max_abs": 0.8308169841766357,
+        "exact_fraction": 0.0
+      }
+    },
+    "vs_own_qdq": {
+      "logits": {
+        "nrmse": 0.04083110134536484,
+        "bias": 0.027347347824619367,
+        "max_abs": 1.2399201393127441,
+        "exact_fraction": 0.4802433894230769
+      },
+      "state": {
+        "nrmse": 0.12840568030860788,
+        "bias": 0.00010354396184503947,
+        "max_abs": 0.6798936724662781,
+        "exact_fraction": 0.1495887169471154
+      }
+    },
+    "software_vs_fp": {
+      "logits": {
+        "nrmse": 0.043163559331294885,
+        "bias": 0.04358563815674055,
+        "max_abs": 1.9751262664794922,
+        "exact_fraction": 2.403846153846154e-06
+      },
+      "state": {
+        "nrmse": 0.14625662979931855,
+        "bias": 0.0007200026967883782,
+        "max_abs": 0.7576476335525513,
+        "exact_fraction": 9.390024038461539e-07
+      }
+    },
+    "top1_agreement_with_fp": 228,
+    "positions": 260,
+    "benchmark": {
+      "benchmark_steps_per_repeat": 2048,
+      "repeats": 3,
+      "replay_steps_per_second": 286.202,
+      "closed_loop_steps_per_second": 286.46,
+      "major_faults": 0,
+      "active": {
+        "dma_used_kib": 4560,
+        "rss_kib": 10272,
+        "hwm_kib": 16580,
+        "mem_available_kib": 23060,
+        "cma_total_kib": 12288,
+        "cma_allocated_kib": 4560,
+        "cma_released_kib": 7728,
+        "cma_free_kib": 0
+      },
+      "after_cleanup": {
+        "dma_used_kib": 12,
+        "rss_kib": 1160,
+        "hwm_kib": 16580,
+        "mem_available_kib": 32200,
+        "cma_total_kib": 12288,
+        "cma_allocated_kib": 12,
+        "cma_released_kib": 12276,
+        "cma_free_kib": 0
+      }
+    }
+  },
+  "verification": "research\\qat-toolchain-match-20261029\\chat-deployment\\verification.json",
+  "board_health": {
+    "ready": true,
+    "model": "delta4x32-lccc-sft-qat-compatible-20261029",
+    "rknn_sha256": "6942f512bbc74c4d1ddd309fbd8cc580d959520d772c56c6098e0e38d8291175",
+    "checkpoint_sha256": "9db7a2fa06b2687bfaa8091b9814bbf6ce52c7aba64d45bd66af933a902adef5",
+    "pid": 1192,
+    "model_loads": 1,
+    "context_tokens": 512,
+    "requests": 10,
+    "cache_resets": 10,
+    "rss_kib": 10216,
+    "dma_kib": 4560
+  },
+  "queue": {
+    "busy": false,
+    "waiting": 0,
+    "capacity": 12
+  },
+  "web_process": {
+    "pid": 33536,
+    "listen_host": "0.0.0.0"
+  },
+  "local_backup": "research\\qat-toolchain-match-20261029\\chat-deployment\\previous-pico-chat",
+  "board_backup": "/userdata/pico-chat/backup-before-compatible-20261029",
+  "original_model_directory_retained": true,
+  "board_reboot_tested": false,
+  "sdk_runtime_firmware_cma_changed": false,
+  "firewall_changed": false,
+  "user_manual_testing": "User took over manual tests after deployment checks; no UI chat messages sent afterwards",
+  "source_sha256": {
+    "model.json": "cae121848a857f78a2540fe9a72c058282baff7d36824bd86863e48968f40e31",
+    "server.py": "30ec674c5590f31bf24dc5038c0f65f160e3b901f1cf8f53e39280966c340126",
+    "verify_lan.py": "2a46ada3d1e15e11843ac0cd406cafc6be9967366805514fe9773ef2125d4bd3",
+    "README.md": "7755848f082bfb3a0486979bf9da2bd0cbcef8f7277456113299f8c457d80d81",
+    "dist/app.js": "69a8b2f579e6dcae625fc5dd22ec77c963b029fe06bd28e00d483a3fca10e813",
+    "dist/index.html": "61b8dee9068a0bf33066aef18d921b81c102dbab71e4ecb6e7c024090d4f1932",
+    "board/chatd.cpp": "0c42635bbb2d541e13b974ceadfdcdc21da569f0fc494fcc7b8c3b13a04f5f92",
+    "board/pico-chatd": "e82148dcceb0e745def9eea67b0e310087d31732acba0bafd22bcead3c12e937",
+    "board/S98picochat": "524bb0139e3047ad62614ced42675d8d85e8dba4560f3718832564d5abb6d0fc"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-10-29T01:38:45.823763+00:00",
+  "historical_source_train_sha256": "ea5f4ce16d566a591b9675b8903281142ff2500a7593396398820774f4aa7f26",
+  "source_files": 101,
+  "from_scratch": true,
+  "qat": false,
+  "full_prefix": true,
+  "expected_targets": 426194486,
+  "expected_windows": 2411917,
+  "expected_updates": 9422,
+  "source_manifest_sha256": "b6b57ae97c515714209606b8700f55e77ad356c0f9cc268069c31e16fff0be9a",
+  "historical_last_sha256": "2e65402ab5f7633c089dfba559078c2f450e59ece1cadb34c9436f7df6283533"
+}

@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "project": "Convora",
+  "model_repository": "heyanzhuo/convora",
+  "files": {
+    "models/float/qat-final.pt": {
+      "sha256": "c87ba126a71f6bdb34515dde18455d28439e9c6ef62d925f051e85cada36ad06",
+      "bytes": 37204623,
+      "distribution": "huggingface",
+      "category": "models"
+    },
+    "models/float/sft-before-qat.pt": {
+      "sha256": "d8d8946f094c48b700d4a5b1dcb1cf8b57a11f1150ae6936b47b168069ba259c",
+      "bytes": 37176695,
+      "distribution": "huggingface",
+      "category": "models"
+    },
+    "models/onnx/compatible.onnx": {
+      "sha256": "0dd4bf93a825a87c90914f3135626aab6de5b3655090de9c2b2c1215861ecf94",
+      "bytes": 32948132,
+      "distribution": "huggingface",
+      "category": "models"
+    },
+    "models/onnx/float.onnx": {
+      "sha256": "929a2abd34ed0392d9677b987fa1b06aed261276e6860d568d0306a32e49efe2",
+      "bytes": 16434125,
+      "distribution": "huggingface",
+      "category": "models"
+    },
+    "models/onnx/qat-original.onnx": {
+      "sha256": "d79ce0780f512cfabb7337023055c83ea38f2fa4994c8f3cc0f71493e7587f14",
+      "bytes": 32936278,
+      "distribution": "huggingface",
+      "category": "models"
+    },
+    "models/rknn/embedding.f32": {
+      "sha256": "44b40d884ddb6718a63c66084b13efa3c0cd0926727eaaec3a73e3b6037cf74b",
+      "bytes": 6553600,
+      "distribution": "huggingface",
+      "category": "models"
+    },
+    "models/rknn/memory.i8": {
+      "sha256": "d01072ba585dff511ece5a4083f22abc97e178f5fd94f88d4b5dbf8d99abac5d",
+      "bytes": 5123328,
+      "distribution": "huggingface",
+      "category": "models"
+    },
+    "models/rknn/memory_scale.f32": {
+      "sha256": "3bcfc96f9cd2e7e6e09739bbd78c66950ad398a91973126186652fe2f1de3a04",
+      "bytes": 320208,
+      "distribution": "huggingface",
+      "category": "models"
+    },
+    "models/rknn/model.rknn": {
+      "sha256": "6942f512bbc74c4d1ddd309fbd8cc580d959520d772c56c6098e0e38d8291175",
+      "bytes": 4694317,
+      "distribution": "huggingface",
+      "category": "models"
+    },
+    "runtime/pico-chat/board/librknnmrt.so": {
+      "sha256": "d6259f5f8537acc15b0c3686010109bf4182e654281aad180a44bfd73ce929cc",
+      "bytes": 190368,
+      "distribution": "external-sdk",
+      "category": "native"
+    },
+    "runtime/pico-chat/board/pico-chatd": {
+      "sha256": "e82148dcceb0e745def9eea67b0e310087d31732acba0bafd22bcead3c12e937",
+      "bytes": 499132,
+      "distribution": "build-from-source",
+      "category": "native"
+    },
+    "tests/fixtures/expected.f32": {
+      "sha256": "3b1888b7d5df1fc79cffc7cfd6c9fcc26a57c7adbbaa02985307813315f2d472",
+      "bytes": 12779520,
+      "distribution": "huggingface",
+      "category": "diagnostics"
+    },
+    "tests/fixtures/fp-closed-logits.f32": {
+      "sha256": "34768121df436d2cf0ac028eb55f1c246522e148cd0291e553ac821b57853795",
+      "bytes": 6656000,
+      "distribution": "huggingface",
+      "category": "diagnostics"
+    },
+    "tests/fixtures/fp-closed-states.f32": {
+      "sha256": "293ded6c01877ef06c7ea102d1b60a4fd3e4af0e22719cb6204b858850b025af",
+      "bytes": 4259840,
+      "distribution": "huggingface",
+      "category": "diagnostics"
+    },
+    "tests/fixtures/inputs.f32": {
+      "sha256": "71d34e34af9801e93cb08261777d5417aff78c7571e786b17bcbf1d598d9a146",
+      "bytes": 9052160,
+      "distribution": "huggingface",
+      "category": "diagnostics"
+    },
+    "tests/fixtures/npu-closed-logits.f32": {
+      "sha256": "b79f8c2a3575e501ebeb01482df1e17598a1d0213219cca8b90dcbafdb7d1523",
+      "bytes": 6656000,
+      "distribution": "huggingface",
+      "category": "diagnostics"
+    },
+    "tests/fixtures/npu-closed-states.f32": {
+      "sha256": "b81e4159e889f73b7b16af98dc6b651c5694398be96100c84f10a24960a5f212",
+      "bytes": 4259840,
+      "distribution": "huggingface",
+      "category": "diagnostics"
+    },
+    "tests/fixtures/npu-single-step.f32": {
+      "sha256": "a2e782aeb3baffca765261a66d3361591ff66fca342c3ccfb7be8a5609594a2b",
+      "bytes": 12779520,
+      "distribution": "huggingface",
+      "category": "diagnostics"
+    },
+    "tests/fixtures/qdq-closed-logits.f32": {
+      "sha256": "c815e7c6330ca15d6841225853663ff8eabe8e2a4d35f86873e8c7656a9b4f2b",
+      "bytes": 6656000,
+      "distribution": "huggingface",
+      "category": "diagnostics"
+    },
+    "tests/fixtures/qdq-closed-states.f32": {
+      "sha256": "c721ba0b2e1fa7c6b5fedbb50201181751ced0c0b354d1174a3d1fda613b0c93",
+      "bytes": 4259840,
+      "distribution": "huggingface",
+      "category": "diagnostics"
+    },
+    "tests/fixtures/sequence.i32": {
+      "sha256": "45269d9f9bc188bf4d3414b6956eb291c5b4dad8ee62f69fb01a11aff875f861",
+      "bytes": 1040,
+      "distribution": "huggingface",
+      "category": "diagnostics"
+    }
+  }
+}

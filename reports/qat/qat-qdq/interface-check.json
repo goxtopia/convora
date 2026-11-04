@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "raw_output_type": "UINT8",
+  "initializer_bytes_unchanged_by_output_fix": true,
+  "closed_loop_positions": 260,
+  "software_logits_max_difference": 0.0,
+  "software_state_max_difference": 0.0,
+  "ort_reference_optimization": "DISABLE_ALL to evaluate explicit Q/DQ semantics; default ORT quantized fusion can change rounding",
+  "native_internal_arithmetic_verified": false,
+  "output_affines": [
+    {
+      "scale": 0.3099799156188965,
+      "uint8_zero_point": 88
+    },
+    {
+      "scale": 0.02341112494468689,
+      "uint8_zero_point": 137
+    },
+    {
+      "scale": 0.02225586399435997,
+      "uint8_zero_point": 120
+    },
+    {
+      "scale": 0.0372094064950943,
+      "uint8_zero_point": 122
+    },
+    {
+      "scale": 0.04194719344377518,
+      "uint8_zero_point": 119
+    },
+    {
+      "scale": 0.056116584688425064,
+      "uint8_zero_point": 134
+    },
+    {
+      "scale": 0.09404633194208145,
+      "uint8_zero_point": 125
+    },
+    {
+      "scale": 0.13711848855018616,
+      "uint8_zero_point": 118
+    },
+    {
+      "scale": 0.052299510687589645,
+      "uint8_zero_point": 117
+    },
+    {
+      "scale": 0.04168923571705818,
+      "uint8_zero_point": 129
+    },
+    {
+      "scale": 0.04120168834924698,
+      "uint8_zero_point": 130
+    },
+    {
+      "scale": 0.04827634617686272,
+      "uint8_zero_point": 128
+    }
+  ]
+}

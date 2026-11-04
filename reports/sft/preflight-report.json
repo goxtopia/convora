@@ -1,0 +1,182 @@
+{
+  "status": "passed",
+  "windows_per_epoch": 15868671,
+  "targets_per_epoch": 378138028,
+  "epoch_order_sha256": "2bb5675962c86d5c82c587a3c621a5ac28ddb6a896bf4494adbddd0dfaf2c887",
+  "legacy_order_bit_equal": true,
+  "first2048_labels_equal": true,
+  "fp64_loss": 3.684597651527155,
+  "fp64_gradient_max": 1.3877787807814457e-16,
+  "fp64_gradient_relative_max": 2.2593059954325423e-14,
+  "graph_loss_max": 1.457991194442343e-07,
+  "graph_gradient_max": 0.00048828125,
+  "graph_gradient_relative_max": 0.023188406601548195,
+  "graph_gradient_tolerance": {
+    "max_absolute": 0.001,
+    "per_tensor_relative_l2": 0.003,
+    "tiny_tensor_absolute_exception": 3e-06,
+    "global_relative_l2": 0.001,
+    "note": "Named inspection found beta.2.bias 1.91e-6 absolute at norm8.23e-5; total gradient relative L2 below .000448 and repeated graph exactly equal. BF16 not bit equivalence."
+  },
+  "temporary_updates": 33,
+  "targets_per_second": 43398.104167072015,
+  "estimated_training_seconds": 17426.476813100486,
+  "timing": [
+    {
+      "seconds": 0.060845935018733144,
+      "targets": 6295,
+      "loss": 4.084253492044778
+    },
+    {
+      "seconds": 0.06014448683708906,
+      "targets": 5580,
+      "loss": 3.8180814353368615
+    },
+    {
+      "seconds": 0.06656937906518579,
+      "targets": 6078,
+      "loss": 3.8847770728575397
+    },
+    {
+      "seconds": 0.06910976790823042,
+      "targets": 6035,
+      "loss": 3.801700177702315
+    },
+    {
+      "seconds": 0.06013875897042453,
+      "targets": 6561,
+      "loss": 3.8192436917128676
+    },
+    {
+      "seconds": 0.1779484678991139,
+      "targets": 7009,
+      "loss": 3.6751066151555145
+    },
+    {
+      "seconds": 0.17905935598537326,
+      "targets": 6046,
+      "loss": 3.6871658108150016
+    },
+    {
+      "seconds": 0.17417776095680892,
+      "targets": 6005,
+      "loss": 3.7378196798891548
+    },
+    {
+      "seconds": 0.18675411003641784,
+      "targets": 5660,
+      "loss": 3.8510172058752485
+    },
+    {
+      "seconds": 0.1645667681004852,
+      "targets": 6050,
+      "loss": 3.8295946458548555
+    },
+    {
+      "seconds": 0.17648483999073505,
+      "targets": 5328,
+      "loss": 3.767382372606982
+    },
+    {
+      "seconds": 0.16637752787210047,
+      "targets": 5663,
+      "loss": 3.7054824249790306
+    },
+    {
+      "seconds": 0.1700462989974767,
+      "targets": 6381,
+      "loss": 3.5751490172239855
+    },
+    {
+      "seconds": 0.167211860883981,
+      "targets": 6708,
+      "loss": 3.6313867449547184
+    },
+    {
+      "seconds": 0.1687403661198914,
+      "targets": 6891,
+      "loss": 3.6536585877412566
+    },
+    {
+      "seconds": 0.15720593300648034,
+      "targets": 5501,
+      "loss": 3.553943050837348
+    },
+    {
+      "seconds": 0.16484125494025648,
+      "targets": 5898,
+      "loss": 3.7647188768099022
+    },
+    {
+      "seconds": 0.1577558668795973,
+      "targets": 4688,
+      "loss": 3.745290554424195
+    },
+    {
+      "seconds": 0.16371680703014135,
+      "targets": 5864,
+      "loss": 3.5886350790442743
+    },
+    {
+      "seconds": 0.15277482196688652,
+      "targets": 5921,
+      "loss": 3.7275492058193294
+    },
+    {
+      "seconds": 0.1452130600810051,
+      "targets": 5828,
+      "loss": 3.680707629118051
+    },
+    {
+      "seconds": 0.14029728900641203,
+      "targets": 6747,
+      "loss": 3.394609482107789
+    },
+    {
+      "seconds": 0.1416357879061252,
+      "targets": 6603,
+      "loss": 3.4919240588439915
+    },
+    {
+      "seconds": 0.13858590787276626,
+      "targets": 6235,
+      "loss": 3.4794413623947476
+    },
+    {
+      "seconds": 0.1435492318123579,
+      "targets": 7186,
+      "loss": 3.5588541304272194
+    },
+    {
+      "seconds": 0.1463281859178096,
+      "targets": 5768,
+      "loss": 3.581274257453569
+    },
+    {
+      "seconds": 0.13897460396401584,
+      "targets": 6159,
+      "loss": 3.6101959768605902
+    },
+    {
+      "seconds": 0.13342731702141464,
+      "targets": 6370,
+      "loss": 3.4221066078174056
+    },
+    {
+      "seconds": 0.13798371609300375,
+      "targets": 6572,
+      "loss": 3.517924795771835
+    },
+    {
+      "seconds": 0.12958150007762015,
+      "targets": 6380,
+      "loss": 3.5328793516727077
+    }
+  ],
+  "peak_allocated_gib": 1.9590692520141602,
+  "peak_reserved_gib": 5.830078125,
+  "allocator_limit_gib": 12,
+  "parent_sha256": "0fc4252d0245a516a76dca6e23395c1609b85800844bc1b753ea9a1be5d9d6d6",
+  "no_formal_training_started": true,
+  "graph_global_relative_l2": 0.00044797947842917815
+}

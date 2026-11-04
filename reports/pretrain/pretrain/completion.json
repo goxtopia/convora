@@ -1,0 +1,208 @@
+{
+  "status": "complete",
+  "audited_utc": "2026-10-29T02:02:03.073714+00:00",
+  "step": 9422,
+  "tokens_seen": 426194486,
+  "epoch_windows": 2411917,
+  "epochs": 1,
+  "from_scratch": true,
+  "qat": false,
+  "training_elapsed_seconds": 1363.6949587999843,
+  "average_targets_per_second_including_validation_and_periodic_save": 312529.19375388755,
+  "source_files_verified": 101,
+  "control_files_verified": {
+    "launcher-frozen.py": "f28413cd1910e14f5c8ca51a33b81f42a4c97a2d4514ed03aec18bb4da6ea2cd",
+    "audit.py": "c642af34b47e46762f35b0c1d7309aea330785198926644dbf1e99e16484df65"
+  },
+  "all_model_values_finite": true,
+  "all_recorded_losses_finite": true,
+  "all_optimizer_steps": 9422,
+  "initialization": null,
+  "validation_targets": 230424,
+  "baseline_ce": 3.1489927857856603,
+  "final_ce": 2.924455000957474,
+  "final_ce_minus_baseline": -0.2245377848281862,
+  "best_ce": 2.924455000957474,
+  "best_step": 9422,
+  "best_ce_minus_baseline": -0.2245377848281862,
+  "validation": [
+    {
+      "loss": 4.09936790438496,
+      "ppl": 60.30215881794806,
+      "zero_memory_loss": 4.119639416765398,
+      "supervised_tokens": 230424,
+      "event": "validation",
+      "step": 500,
+      "tokens": 22665905
+    },
+    {
+      "loss": 3.6473996374618096,
+      "ppl": 38.37474793672979,
+      "zero_memory_loss": 3.6873228639106603,
+      "supervised_tokens": 230424,
+      "event": "validation",
+      "step": 1000,
+      "tokens": 45291236
+    },
+    {
+      "loss": 3.4495772602897268,
+      "ppl": 31.487078656332894,
+      "zero_memory_loss": 3.5142792471704336,
+      "supervised_tokens": 230424,
+      "event": "validation",
+      "step": 1500,
+      "tokens": 67901584
+    },
+    {
+      "loss": 3.3347950578336025,
+      "ppl": 28.07262936873813,
+      "zero_memory_loss": 3.4205890045362026,
+      "supervised_tokens": 230424,
+      "event": "validation",
+      "step": 2000,
+      "tokens": 90482312
+    },
+    {
+      "loss": 3.2499696466486783,
+      "ppl": 25.789557105825384,
+      "zero_memory_loss": 3.3558585714541453,
+      "supervised_tokens": 230424,
+      "event": "validation",
+      "step": 2500,
+      "tokens": 113052766
+    },
+    {
+      "loss": 3.191376803604442,
+      "ppl": 24.321890868540752,
+      "zero_memory_loss": 3.30761666197423,
+      "supervised_tokens": 230424,
+      "event": "validation",
+      "step": 3000,
+      "tokens": 135647423
+    },
+    {
+      "loss": 3.1418837867908724,
+      "ppl": 23.147430637481488,
+      "zero_memory_loss": 3.27409187282195,
+      "supervised_tokens": 230424,
+      "event": "validation",
+      "step": 3500,
+      "tokens": 158267570
+    },
+    {
+      "loss": 3.104909802486395,
+      "ppl": 22.3072068299404,
+      "zero_memory_loss": 3.249862041009183,
+      "supervised_tokens": 230424,
+      "event": "validation",
+      "step": 4000,
+      "tokens": 180855016
+    },
+    {
+      "loss": 3.0727786737709613,
+      "ppl": 21.60184383483909,
+      "zero_memory_loss": 3.2230292800581752,
+      "supervised_tokens": 230424,
+      "event": "validation",
+      "step": 4500,
+      "tokens": 203470884
+    },
+    {
+      "loss": 3.0426500694778973,
+      "ppl": 20.960717054390326,
+      "zero_memory_loss": 3.20042233963259,
+      "supervised_tokens": 230424,
+      "event": "validation",
+      "step": 5000,
+      "tokens": 226087616
+    },
+    {
+      "loss": 3.0190439943728733,
+      "ppl": 20.47171125502728,
+      "zero_memory_loss": 3.1854926102261483,
+      "supervised_tokens": 230424,
+      "event": "validation",
+      "step": 5500,
+      "tokens": 248723022
+    },
+    {
+      "loss": 2.9987235996196144,
+      "ppl": 20.05991609091714,
+      "zero_memory_loss": 3.173803747385255,
+      "supervised_tokens": 230424,
+      "event": "validation",
+      "step": 6000,
+      "tokens": 271350639
+    },
+    {
+      "loss": 2.9799718399559074,
+      "ppl": 19.687262242783625,
+      "zero_memory_loss": 3.158835824122053,
+      "supervised_tokens": 230424,
+      "event": "validation",
+      "step": 6500,
+      "tokens": 293985440
+    },
+    {
+      "loss": 2.9642162976594233,
+      "ppl": 19.37950952160078,
+      "zero_memory_loss": 3.14547443313739,
+      "supervised_tokens": 230424,
+      "event": "validation",
+      "step": 7000,
+      "tokens": 316606941
+    },
+    {
+      "loss": 2.951738663019043,
+      "ppl": 19.139201438328968,
+      "zero_memory_loss": 3.137415461551314,
+      "supervised_tokens": 230424,
+      "event": "validation",
+      "step": 7500,
+      "tokens": 339239211
+    },
+    {
+      "loss": 2.9406625462733915,
+      "ppl": 18.928383088375817,
+      "zero_memory_loss": 3.126712985151829,
+      "supervised_tokens": 230424,
+      "event": "validation",
+      "step": 8000,
+      "tokens": 361883771
+    },
+    {
+      "loss": 2.9344991630917354,
+      "ppl": 18.812078991921908,
+      "zero_memory_loss": 3.1223114525423785,
+      "supervised_tokens": 230424,
+      "event": "validation",
+      "step": 8500,
+      "tokens": 384487694
+    },
+    {
+      "loss": 2.9280012149477703,
+      "ppl": 18.69023537362887,
+      "zero_memory_loss": 3.116966143459991,
+      "supervised_tokens": 230424,
+      "event": "validation",
+      "step": 9000,
+      "tokens": 407103035
+    },
+    {
+      "loss": 2.924455000957474,
+      "ppl": 18.624073181446693,
+      "zero_memory_loss": 3.1147948998368227,
+      "supervised_tokens": 230424,
+      "event": "validation_final",
+      "step": 9422,
+      "tokens": 426194486
+    }
+  ],
+  "peak_allocated_gib": 5.479642391204834,
+  "artifact_sha256": {
+    "last.pt": "0fc4252d0245a516a76dca6e23395c1609b85800844bc1b753ea9a1be5d9d6d6",
+    "best.pt": "29ac30ba93dce697b63daa923f15777c0cf8fb9c13e5d81e58b8e6f32edd8c95",
+    "epoch-0001.pt": "c79ec18ab61882b7e64ebf8cf83ceb96f113ad023c6667e863f75df5a80a4fff"
+  },
+  "comparison_scope": "Same fixed historical validation inputs and labels, 20 batches x64; single seed and one epoch; new Delta train keeps full document prefix whereas old finite-context train used width388. CE only, not a task/NPU/QAT result."
+}

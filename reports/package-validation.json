@@ -1,0 +1,67 @@
+{
+  "recorded_metrics": {
+    "single_step_logits": 0.03286575448599505,
+    "single_step_state": 0.02044780530773484,
+    "closed_logits_vs_fp": 0.0439985888172961,
+    "closed_state_vs_fp": 0.14483369220878503,
+    "closed_logits_vs_qdq": 0.04083110134536484,
+    "closed_state_vs_qdq": 0.12840568030860788,
+    "top1_same_as_fp": 228,
+    "positions": 260
+  },
+  "float": {
+    "sft-before-qat.pt": {
+      "cached_vs_full": [
+        {
+          "prefix": 1,
+          "max_abs_difference": 4.76837158203125e-06
+        },
+        {
+          "prefix": 32,
+          "max_abs_difference": 1.4781951904296875e-05
+        },
+        {
+          "prefix": 133,
+          "max_abs_difference": 1.71661376953125e-05
+        },
+        {
+          "prefix": 260,
+          "max_abs_difference": 1.239776611328125e-05
+        }
+      ],
+      "reset_exact": true,
+      "source_checkpoint_sha256": "7ca29f788efaf7cbdd6300e8c326d887617373b6dabc4483a6fa034afdad90aa"
+    },
+    "qat-final.pt": {
+      "cached_vs_full": [
+        {
+          "prefix": 1,
+          "max_abs_difference": 3.814697265625e-06
+        },
+        {
+          "prefix": 32,
+          "max_abs_difference": 1.4781951904296875e-05
+        },
+        {
+          "prefix": 133,
+          "max_abs_difference": 1.621246337890625e-05
+        },
+        {
+          "prefix": 260,
+          "max_abs_difference": 1.621246337890625e-05
+        }
+      ],
+      "reset_exact": true,
+      "source_checkpoint_sha256": "9db7a2fa06b2687bfaa8091b9814bbf6ce52c7aba64d45bd66af933a902adef5"
+    },
+    "fp_vs_shipped_reference": {
+      "logits_max_abs": 1.9073486328125e-05,
+      "state_max_abs": 3.814697265625e-06
+    }
+  },
+  "onnx": {
+    "positions": 260,
+    "max_abs_difference": 0.0
+  },
+  "passed": true
+}

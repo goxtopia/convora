@@ -1,0 +1,7 @@
+# Install a CUDA-enabled PyTorch build compatible with the GPU first.
+# The historical CUDA environment was not exported as a complete lockfile.
+torch>=2.2,<3
+numpy>=1.23,<3
+requests>=2.28,<3
+tokenizers>=0.20,<0.23
+# Triton is supplied by the matching Linux CUDA PyTorch distribution.

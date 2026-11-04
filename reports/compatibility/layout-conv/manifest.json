@@ -1,0 +1,79 @@
+{
+  "scope": "Exact QDQ layout rewrite on 260 identical captured feeds",
+  "raw_software_output_max_difference": 0,
+  "original_initializers_byte_unchanged": true,
+  "changes": [
+    {
+      "node": "/delta/Mul_5",
+      "index": 1,
+      "source": "/delta/DequantizeLinear_15_output_0",
+      "shape": "aligned_vector_shape"
+    },
+    {
+      "node": "/delta/Sub",
+      "index": 0,
+      "source": "/delta/DequantizeLinear_5_output_0",
+      "shape": "aligned_vector_shape"
+    },
+    {
+      "node": "/delta/Mul_8",
+      "index": 1,
+      "source": "/delta/DequantizeLinear_18_output_0",
+      "shape": "outer_vector_shape"
+    },
+    {
+      "node": "/delta/Mul_12",
+      "index": 1,
+      "source": "/delta/DequantizeLinear_35_output_0",
+      "shape": "aligned_vector_shape"
+    },
+    {
+      "node": "/delta/Sub_1",
+      "index": 0,
+      "source": "/delta/DequantizeLinear_26_output_0",
+      "shape": "aligned_vector_shape"
+    },
+    {
+      "node": "/delta/Mul_15",
+      "index": 1,
+      "source": "/delta/DequantizeLinear_38_output_0",
+      "shape": "outer_vector_shape"
+    },
+    {
+      "node": "/delta/Mul_19",
+      "index": 1,
+      "source": "/delta/DequantizeLinear_55_output_0",
+      "shape": "aligned_vector_shape"
+    },
+    {
+      "node": "/delta/Sub_2",
+      "index": 0,
+      "source": "/delta/DequantizeLinear_46_output_0",
+      "shape": "aligned_vector_shape"
+    },
+    {
+      "node": "/delta/Mul_22",
+      "index": 1,
+      "source": "/delta/DequantizeLinear_58_output_0",
+      "shape": "outer_vector_shape"
+    },
+    {
+      "node": "/delta/Mul_26",
+      "index": 1,
+      "source": "/delta/DequantizeLinear_75_output_0",
+      "shape": "aligned_vector_shape"
+    },
+    {
+      "node": "/delta/Sub_3",
+      "index": 0,
+      "source": "/delta/DequantizeLinear_66_output_0",
+      "shape": "aligned_vector_shape"
+    },
+    {
+      "node": "/delta/Mul_29",
+      "index": 1,
+      "source": "/delta/DequantizeLinear_78_output_0",
+      "shape": "outer_vector_shape"
+    }
+  ]
+}

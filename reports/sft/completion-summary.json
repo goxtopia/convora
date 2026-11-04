@@ -1,0 +1,237 @@
+{
+  "status": "complete",
+  "pipeline": {
+    "status": "complete",
+    "returncode": 0,
+    "ended_utc": "2026-10-29T05:31:43.486108+00:00",
+    "training_complete": true,
+    "comparison_complete": true
+  },
+  "training": {
+    "status": "train_complete",
+    "completed_utc": "2026-10-29T05:30:47.075966+00:00",
+    "run": "/workspace/tcnengram/training-runs/delta-lccc-sft-2epoch-20261029",
+    "step": 123974,
+    "tokens_seen": 756276056,
+    "epochs": 2,
+    "epoch_cursor": 31737342,
+    "training_elapsed_seconds": 8472.48132510879,
+    "average_targets_per_second_including_validation_save": 89262.64065743327,
+    "source_files_verified": 106,
+    "data_files_verified": 462,
+    "all_optimizer_counts_verified": true,
+    "all_weights_and_recorded_losses_finite": true,
+    "parent": {
+      "path": "/workspace/tcnengram/training-runs/delta-fp-pretrain-1epoch-fast-20261029/pretrain/last.pt",
+      "sha256": "0fc4252d0245a516a76dca6e23395c1609b85800844bc1b753ea9a1be5d9d6d6",
+      "tokens_seen": 426194486,
+      "step": 9422
+    },
+    "best_monitor_ce": 3.1306238024652986,
+    "best_monitor_step": 123974,
+    "final_monitor": {
+      "loss": 3.1306238024652986,
+      "ppl": 22.888252838666414,
+      "zero_memory_loss": 3.387161001778351,
+      "supervised_tokens": 63542,
+      "event": "validation_final",
+      "step": 123974,
+      "tokens": 756276056
+    },
+    "artifact_sha256": {
+      "last.pt": "7ca29f788efaf7cbdd6300e8c326d887617373b6dabc4483a6fa034afdad90aa",
+      "best.pt": "e62886820773355b1190a1983749e6cd459e1af90d0dc8e8a5bf6648d04df0b9",
+      "epoch-0001.pt": "f8897dfeb5a441e46fc395c60a61fa1c13c466c6e9894768a8e3b5ff7c72fbb7",
+      "epoch-0002.pt": "4031c9f4f2c00ea88817048221a7823b9cf18c79f4e666c2c614bde08b7e34f5"
+    },
+    "peak_allocated_gib": 4.1474385261535645,
+    "baseline_sha256": "3720565dc4f08f9c5a2da11a729b212adbe50ba83d451c1b2c4d5de4bede68f6",
+    "qat": false,
+    "no_web_added": true,
+    "comparison_pending": true
+  },
+  "comparison": {
+    "status": "complete",
+    "scope": "End-to-end two-epoch LCCC SFT after each own pretrain; same data/seed/effective batch/schedule. New Delta has better pretrain and longer train prefix, not an isolated SFT-only layer effect. Reused diagnostics are not blind tests.",
+    "checkpoints": {
+      "old": "3720565dc4f08f9c5a2da11a729b212adbe50ba83d451c1b2c4d5de4bede68f6",
+      "delta": "7ca29f788efaf7cbdd6300e8c326d887617373b6dabc4483a6fa034afdad90aa"
+    },
+    "validation": {
+      "old": {
+        "original": {
+          "loss": 3.027754184214262,
+          "ppl": 20.650802573864933,
+          "targets": 2246242,
+          "windows": 18207,
+          "precision": "bf16",
+          "input_context": 132
+        },
+        "lccc-core": {
+          "loss": 3.7075999435967244,
+          "ppl": 40.755872657452784,
+          "targets": 1493389,
+          "windows": 136717,
+          "precision": "bf16",
+          "input_context": 132
+        },
+        "lccc-extended": {
+          "loss": 3.868493049982974,
+          "ppl": 47.87019371010743,
+          "targets": 86999,
+          "windows": 5051,
+          "precision": "bf16",
+          "input_context": 132
+        },
+        "web": {
+          "loss": 4.205759867660657,
+          "ppl": 67.0715438047794,
+          "targets": 73542,
+          "windows": 886,
+          "precision": "bf16",
+          "input_context": 132
+        }
+      },
+      "delta": {
+        "original": {
+          "loss": 2.8109940689619037,
+          "ppl": 16.62643783240498,
+          "targets": 2246242,
+          "windows": 18207,
+          "precision": "bf16",
+          "input_context": 132
+        },
+        "lccc-core": {
+          "loss": 3.6019282440768294,
+          "ppl": 36.66887285462831,
+          "targets": 1493389,
+          "windows": 136717,
+          "precision": "bf16",
+          "input_context": 132
+        },
+        "lccc-extended": {
+          "loss": 3.7390888259581287,
+          "ppl": 42.05964903951543,
+          "targets": 86999,
+          "windows": 5051,
+          "precision": "bf16",
+          "input_context": 132
+        },
+        "web": {
+          "loss": 3.8360998222104374,
+          "ppl": 46.34437021663513,
+          "targets": 73542,
+          "windows": 886,
+          "precision": "bf16",
+          "input_context": 132
+        }
+      }
+    },
+    "generation": {
+      "old": {
+        "strict_single": {
+          "correct": 1,
+          "total": 16
+        },
+        "strict_multi": {
+          "correct": 0,
+          "total": 8
+        },
+        "eos_answers": 39,
+        "answers": 48,
+        "mean_new_tokens": 31.125,
+        "casual_mean_duplicate_4gram_fraction": 0.10814917442072614,
+        "cached_full_checks": [
+          {
+            "id": "greeting",
+            "step": 0,
+            "max_difference": 1.811981201171875e-05,
+            "same_argmax": true
+          },
+          {
+            "id": "greeting",
+            "step": 7,
+            "max_difference": 3.147125244140625e-05,
+            "same_argmax": true
+          },
+          {
+            "id": "blue",
+            "step": 0,
+            "max_difference": 3.910064697265625e-05,
+            "same_argmax": true
+          },
+          {
+            "id": "name_recall",
+            "step": 0,
+            "max_difference": 3.910064697265625e-05,
+            "same_argmax": true
+          },
+          {
+            "id": "name_recall",
+            "step": 7,
+            "max_difference": 4.291534423828125e-05,
+            "same_argmax": true
+          }
+        ],
+        "seconds": 3.0433111570309848,
+        "precision": "cpu_fp32"
+      },
+      "delta": {
+        "strict_single": {
+          "correct": 2,
+          "total": 16
+        },
+        "strict_multi": {
+          "correct": 0,
+          "total": 8
+        },
+        "eos_answers": 35,
+        "answers": 48,
+        "mean_new_tokens": 34.1875,
+        "casual_mean_duplicate_4gram_fraction": 0.1166491963661775,
+        "cached_full_checks": [
+          {
+            "id": "greeting",
+            "step": 0,
+            "max_difference": 1.1444091796875e-05,
+            "same_argmax": true
+          },
+          {
+            "id": "greeting",
+            "step": 7,
+            "max_difference": 7.450580596923828e-06,
+            "same_argmax": true
+          },
+          {
+            "id": "blue",
+            "step": 0,
+            "max_difference": 7.62939453125e-06,
+            "same_argmax": true
+          },
+          {
+            "id": "name_recall",
+            "step": 0,
+            "max_difference": 8.106231689453125e-06,
+            "same_argmax": true
+          },
+          {
+            "id": "name_recall",
+            "step": 7,
+            "max_difference": 9.5367431640625e-06,
+            "same_argmax": true
+          }
+        ],
+        "seconds": 3.9769355461467057,
+        "precision": "cpu_fp32"
+      }
+    },
+    "validation_delta_minus_old": {
+      "original": -0.21676011525235817,
+      "lccc-core": -0.10567169951989497,
+      "lccc-extended": -0.12940422402484542,
+      "web": -0.36966004545021924
+    },
+    "completed_utc": "2026-10-29T05:31:43.005347+00:00"
+  },
+  "note": "comparison_pending=true in the original training audit is its earlier stage snapshot; pipeline and comparison are now complete."
+}

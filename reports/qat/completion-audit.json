@@ -1,0 +1,57 @@
+{
+  "completion": {
+    "status": "complete",
+    "finished_utc": "2026-10-29T07:37:42.636017+00:00",
+    "step": 129876,
+    "updates": 5902,
+    "new_supervised_targets": 35986745,
+    "cursor": 1510912,
+    "training_seconds": 1800.0139767450746,
+    "parent_preserved": true,
+    "peak_allocated_gib": 1.930856704711914,
+    "peak_reserved_gib": 4.966796875,
+    "artifact_sha256": {
+      "full-last.pt": "9db7a2fa06b2687bfaa8091b9814bbf6ce52c7aba64d45bd66af933a902adef5",
+      "backbone-last.pt": "13923c033720de4caf8191c197410713ad88b44b94560a807f53384c44e360dc",
+      "qat-last.pt": "7098d5fbb6d788ebfc3cdf9fad39e5b8ccfe532b01715d5d6e735b8cc5765f47"
+    },
+    "contract": {
+      "version": "new-sft-joint-delta-qat-v1",
+      "parent_sha256": "7ca29f788efaf7cbdd6300e8c326d887617373b6dabc4483a6fa034afdad90aa",
+      "seconds": 1800.0,
+      "optimizer": "inherited SFT AdamW, endpoint lr held at 1e-5",
+      "all_parameters_trainable": true,
+      "fake_quant_scope": "Delta weights/activations/recursive state only; backbone/head floating then deployment PTQ",
+      "arithmetic": "FP32 TF32 off",
+      "effective_batch": 256,
+      "data_fingerprint": "a0b7193c2f8f391f93dfe2f461f79cfd5d825fb8480686d89c64f3149af2e4c8",
+      "source_manifest_sha256": "d8551be38a56662843e242373b48315926c7fd44875b009d6ba839f126488ea8",
+      "allocator_limit_gib": 12,
+      "data_seed": 110307,
+      "new_calibration": true
+    }
+  },
+  "deploy_sha256": "c87ba126a71f6bdb34515dde18455d28439e9c6ef62d925f051e85cada36ad06",
+  "deploy_bytes": 37204623,
+  "all_optimizer_steps_match": true,
+  "all_weights_finite": true,
+  "delta_backbone_pair_verified": true,
+  "source_manifest_sha256": "d8551be38a56662843e242373b48315926c7fd44875b009d6ba839f126488ea8",
+  "resume-audit.json": {
+    "reason": "Previous SSH connection closed by remote host; stopped checkpoint verified",
+    "at_utc": "2026-10-29T07:22:57.872586+00:00",
+    "origin_sha256": "9eda7c2cb78c67fdb55114ba6a6813aaf284639350fe9670d745e2f382c9adc6",
+    "origin_step": 127286,
+    "origin_updates": 3312,
+    "origin_cursor": 847872,
+    "origin_elapsed": 990.6130659810733,
+    "remaining_seconds": 809.3869340189267,
+    "total_budget_seconds": 1800
+  },
+  "pipeline-status.json": {
+    "status": "complete",
+    "returncode": 0,
+    "completed_utc": "2026-10-29T07:37:58.219603+00:00",
+    "board_pending": true
+  }
+}

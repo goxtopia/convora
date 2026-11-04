@@ -1,0 +1,43 @@
+{
+  "status": "train_complete",
+  "completed_utc": "2026-10-29T05:30:47.075966+00:00",
+  "run": "/workspace/tcnengram/training-runs/delta-lccc-sft-2epoch-20261029",
+  "step": 123974,
+  "tokens_seen": 756276056,
+  "epochs": 2,
+  "epoch_cursor": 31737342,
+  "training_elapsed_seconds": 8472.48132510879,
+  "average_targets_per_second_including_validation_save": 89262.64065743327,
+  "source_files_verified": 106,
+  "data_files_verified": 462,
+  "all_optimizer_counts_verified": true,
+  "all_weights_and_recorded_losses_finite": true,
+  "parent": {
+    "path": "/workspace/tcnengram/training-runs/delta-fp-pretrain-1epoch-fast-20261029/pretrain/last.pt",
+    "sha256": "0fc4252d0245a516a76dca6e23395c1609b85800844bc1b753ea9a1be5d9d6d6",
+    "tokens_seen": 426194486,
+    "step": 9422
+  },
+  "best_monitor_ce": 3.1306238024652986,
+  "best_monitor_step": 123974,
+  "final_monitor": {
+    "loss": 3.1306238024652986,
+    "ppl": 22.888252838666414,
+    "zero_memory_loss": 3.387161001778351,
+    "supervised_tokens": 63542,
+    "event": "validation_final",
+    "step": 123974,
+    "tokens": 756276056
+  },
+  "artifact_sha256": {
+    "last.pt": "7ca29f788efaf7cbdd6300e8c326d887617373b6dabc4483a6fa034afdad90aa",
+    "best.pt": "e62886820773355b1190a1983749e6cd459e1af90d0dc8e8a5bf6648d04df0b9",
+    "epoch-0001.pt": "f8897dfeb5a441e46fc395c60a61fa1c13c466c6e9894768a8e3b5ff7c72fbb7",
+    "epoch-0002.pt": "4031c9f4f2c00ea88817048221a7823b9cf18c79f4e666c2c614bde08b7e34f5"
+  },
+  "peak_allocated_gib": 4.1474385261535645,
+  "baseline_sha256": "3720565dc4f08f9c5a2da11a729b212adbe50ba83d451c1b2c4d5de4bede68f6",
+  "qat": false,
+  "no_web_added": true,
+  "comparison_pending": true
+}

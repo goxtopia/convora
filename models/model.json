@@ -1,0 +1,9 @@
+{
+  "model": "delta4x32-lccc-sft-qat-compatible-20261029",
+  "checkpoint_sha256": "9db7a2fa06b2687bfaa8091b9814bbf6ce52c7aba64d45bd66af933a902adef5",
+  "rknn_sha256": "6942f512bbc74c4d1ddd309fbd8cc580d959520d772c56c6098e0e38d8291175",
+  "context_tokens": 512,
+  "label": "TCN + Engram + Delta 4×32 · QAT 兼容修复版",
+  "note": "QAT兼容修复版：260步诊断 logits 误差4.40%、状态误差14.48%，回答仍可能跑题或重复。",
+  "board_model_directory": "/mnt/sdcard/pico-models/delta-sft-qat-compatible-20261029"
+}

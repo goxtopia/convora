@@ -1,0 +1,27 @@
+#!/bin/sh
+set -eu
+base=/userdata/pico-chat
+bin=$base/pico-chatd
+pid=$base/chatd.pid
+case "${1:-start}" in
+  start)
+    start-stop-daemon -S -o -b -m -p "$pid" -x "$bin" -- /mnt/sdcard/pico-models/delta-sft-qat-compatible-20261029 8781 >> "$base/service.log" 2>&1
+    ;;
+  stop)
+    start-stop-daemon -K -o -p "$pid" -x "$bin" -s TERM
+    ;;
+  restart)
+    "$0" stop
+    sleep 1
+    "$0" start
+    ;;
+  status)
+    if [ -f "$pid" ] && start-stop-daemon -K -t -p "$pid" -x "$bin"; then
+      echo "pico-chat running pid=$(cat "$pid")"
+    else
+      echo 'pico-chat stopped'
+      exit 1
+    fi
+    ;;
+  *) echo 'Usage: S98picochat start|stop|restart|status'; exit 2 ;;
+esac
